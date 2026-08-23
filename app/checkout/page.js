@@ -217,7 +217,7 @@ const page = () => {
                         </div>
                         <div className="mt-4">
                           <Link
-                            href="/checkout"
+                            href="/order-success"
                             className="theme-btn border-radius-none"
                           >
                             Payment Now

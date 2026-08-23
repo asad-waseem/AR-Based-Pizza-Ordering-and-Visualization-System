@@ -3,57 +3,13 @@ import Cta from "@/components/Cta";
 import PageBanner from "@/components/PageBanner";
 import FoodKingLayout from "@/layouts/FoodKingLayout";
 import Link from "next/link";
-import { useState } from "react";
+import { useCart } from "@/context/CartContext";
+
 const page = () => {
-  const [cartItems, setCartItems] = useState([
-    {
-      id: 1,
-      name: "Deluxe Burger",
-      price: 12.99,
-      quantity: 2,
-      image: "/assets/img/shop-food/s1.png",
-    },
-    {
-      id: 2,
-      name: "Margherita Pizza",
-      price: 14.99,
-      quantity: 1,
-      image: "/assets/img/shop-food/s2.png",
-    },
-    {
-      id: 3,
-      name: "Caesar Salad",
-      price: 8.99,
-      quantity: 1,
-      image: "/assets/img/shop-food/s3.png",
-    },
-  ]);
+  const { cartItems, updateQuantity, removeFromCart, getCartSubtotal } = useCart();
+  const subtotal = getCartSubtotal();
+  const shipping = cartItems.length > 0 ? 10 : 0;
 
-  const calculateCartTotal = () => {
-    return cartItems.reduce(
-      (total, item) => total + item.price * item.quantity,
-      0
-    );
-  };
-
-  const incrementQuantity = (index) => {
-    const newCartItems = [...cartItems];
-    newCartItems[index].quantity += 1;
-    setCartItems(newCartItems);
-  };
-
-  const decrementQuantity = (index) => {
-    const newCartItems = [...cartItems];
-    if (newCartItems[index].quantity > 1) {
-      newCartItems[index].quantity -= 1;
-      setCartItems(newCartItems);
-    }
-  };
-
-  const removeItem = (index) => {
-    const newCartItems = cartItems.filter((_, i) => i !== index);
-    setCartItems(newCartItems);
-  };
   return (
     <FoodKingLayout>
       <PageBanner pageName={"shop Cart"} />
@@ -75,11 +31,11 @@ const page = () => {
                         </tr>
                       </thead>
                       <tbody>
-                        {cartItems.map((item, index) => (
-                          <tr key={index} className="cart-item">
+                        {cartItems.map((item) => (
+                          <tr key={item.lineId} className="cart-item">
                             <td className="cart-item-info">
                               <img src={item.image} alt={item.name} />
-                              <span>{item.name}</span>
+                              <span>{item.name} {item.selectedSize ? `(${item.selectedSize})` : ''}</span>
                             </td>
                             <td className="cart-item-price">
                               ${" "}
@@ -98,7 +54,7 @@ const page = () => {
                                     className="cart-increment"
                                     onClick={(e) => {
                                       e.preventDefault();
-                                      incrementQuantity(index);
+                                      updateQuantity(item.lineId, item.quantity + 1);
                                     }}
                                   >
                                     <i className="far fa-caret-up" />
@@ -108,7 +64,9 @@ const page = () => {
                                     className="cart-decrement"
                                     onClick={(e) => {
                                       e.preventDefault();
-                                      decrementQuantity(index);
+                                      if (item.quantity > 1) {
+                                        updateQuantity(item.lineId, item.quantity - 1);
+                                      }
                                     }}
                                   >
                                     <i className="far fa-caret-down" />
@@ -127,7 +85,7 @@ const page = () => {
                                 href="#"
                                 onClick={(e) => {
                                   e.preventDefault();
-                                  removeItem(index);
+                                  removeFromCart(item.lineId);
                                 }}
                               >
                                 <i className="fas fa-times" />
@@ -135,6 +93,13 @@ const page = () => {
                             </td>
                           </tr>
                         ))}
+                        {cartItems.length === 0 && (
+                          <tr>
+                            <td colSpan="5" className="text-center py-4">
+                              Your cart is empty
+                            </td>
+                          </tr>
+                        )}
                       </tbody>
                     </table>
                   </div>
@@ -150,7 +115,6 @@ const page = () => {
                         href="#"
                         onClick={(e) => {
                           e.preventDefault();
-                          // Add your promo code logic here
                         }}
                         className="theme-btn border-radius-none"
                       >
@@ -158,10 +122,10 @@ const page = () => {
                       </Link>
                     </form>
                     <Link
-                      href="/shop-cart"
+                      href="/menu"
                       className="theme-btn border-radius-none"
                     >
-                      Update Cart
+                      Continue Shopping
                     </Link>
                   </div>
                 </div>
@@ -176,22 +140,18 @@ const page = () => {
                     <ul>
                       <li>
                         <span>Subtotal</span>
-                        <span>${calculateCartTotal().toFixed(2)}</span>
+                        <span>${subtotal.toFixed(2)}</span>
                       </li>
                       <li>
                         <span>Shipping</span>
                         <span>
-                          ${cartItems.length > 0 ? "$10.00" : "$0.00"}
+                          ${shipping.toFixed(2)}
                         </span>
                       </li>
                       <li>
                         <span>Total</span>
                         <span>
-                          $
-                          {(
-                            calculateCartTotal() +
-                            (cartItems.length > 0 ? 10 : 0)
-                          ).toFixed(2)}
+                          ${(subtotal + shipping).toFixed(2)}
                         </span>
                       </li>
                     </ul>

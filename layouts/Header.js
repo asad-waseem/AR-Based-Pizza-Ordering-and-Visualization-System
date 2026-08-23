@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Fragment, useState } from "react";
+import HeaderCart from "@/components/HeaderCart";
 
 const Header = ({ header }) => {
   switch (header) {
@@ -18,162 +19,23 @@ export default Header;
 const Menus = () => {
   return (
     <ul>
-      <li className="has-dropdown active">
-        <Link href="/">
-          Home Page
-          <i className="fas fa-angle-down" />
-        </Link>
-        <ul className="submenu has-homemenu">
-          <li className="border-none">
-            <div className="row g-4">
-              <div className="col-lg-4 homemenu">
-                <div className="homemenu-thumb">
-                  <img src="/assets/img/header/home-1.jpg" alt="img" />
-                  <div className="demo-button">
-                    <Link href="/" className="theme-btn">
-                      View Demo
-                    </Link>
-                  </div>
-                </div>
-                <div className="homemenu-content text-center">
-                  <h4 className="homemenu-title">
-                    <Link href="/">Home 01</Link>
-                  </h4>
-                </div>
-              </div>
-              <div className="col-lg-4  homemenu">
-                <div className="homemenu-thumb mb-15">
-                  <img src="/assets/img/header/home-2.jpg" alt="img" />
-                  <div className="demo-button">
-                    <Link href="index-2" className="theme-btn">
-                      View Demo
-                    </Link>
-                  </div>
-                </div>
-                <div className="homemenu-content text-center">
-                  <h4 className="homemenu-title">
-                    <Link href="index-2">Home 02</Link>
-                  </h4>
-                </div>
-              </div>
-              <div className="col-lg-4 homemenu">
-                <div className="homemenu-thumb mb-15">
-                  <img src="/assets/img/header/home-3.jpg" alt="img" />
-                  <div className="demo-button">
-                    <Link href="index-3" className="theme-btn">
-                      View Demo
-                    </Link>
-                  </div>
-                </div>
-                <div className="homemenu-content text-center">
-                  <h4 className="homemenu-title">
-                    <Link href="index-3">Home 03</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </li>
-      <li className="has-dropdown">
-        <Link href="shop">
-          Shop
-          <i className="fas fa-angle-down" />
-        </Link>
-        <ul className="submenu">
-          <li>
-            <Link href="shop">Shop Grid</Link>
-          </li>
-          <li>
-            <Link href="shop-list">Shop List</Link>
-          </li>
-          <li>
-            <Link href="shop-left-sidebar">Shop Left SideBar</Link>
-          </li>
-          <li>
-            <Link href="shop-right-sidebar">Shop Right SideBar</Link>
-          </li>
-          <li>
-            <Link href="shop-single">Shop Single</Link>
-          </li>
-          <li>
-            <Link href="shop-cart">Shop Cart</Link>
-          </li>
-          <li>
-            <Link href="checkout">checkout</Link>
-          </li>
-        </ul>
+      <li>
+        <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="news">
-          Blog
-          <i className="fas fa-angle-down" />
-        </Link>
-        <ul className="submenu">
-          <li>
-            <Link href="news">Blog</Link>
-          </li>
-          <li>
-            <Link href="news-details">Blog Details</Link>
-          </li>
-        </ul>
-      </li>
-      <li className="has-dropdown">
-        <Link href="news">
-          Pages
-          <i className="fas fa-angle-down" />
-        </Link>
-        <ul className="submenu">
-          <li>
-            <Link href="about">About Us</Link>
-          </li>
-          <li className="has-dropdown">
-            <Link href="team">
-              Chef Page
-              <i className="fas fa-angle-down" />
-            </Link>
-            <ul className="submenu">
-              <li>
-                <Link href="team">Chef</Link>
-              </li>
-              <li>
-                <Link href="team-details">Chef Details</Link>
-              </li>
-            </ul>
-          </li>
-          <li className="has-dropdown">
-            <Link href="food-menu">
-              Food Menu
-              <i className="fas fa-angle-down" />
-            </Link>
-            <ul className="submenu">
-              <li>
-                <Link href="food-menu">Food Menu 01</Link>
-              </li>
-              <li>
-                <Link href="food-menu-2">Food Menu 02</Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <Link href="gallery">Gallery</Link>
-          </li>
-          <li>
-            <Link href="testimonial">testimonial</Link>
-          </li>
-          <li>
-            <Link href="reservation">Reservation</Link>
-          </li>
-          <li>
-            <Link href="faq">Faq's</Link>
-          </li>
-          <li>
-            <Link href="404">404 Page</Link>
-          </li>
-        </ul>
+        <Link href="/menu">Menu</Link>
       </li>
       <li>
-        <Link href="contact">Contact</Link>
+        <Link href="/shop-cart">Cart</Link>
+      </li>
+      <li>
+        <Link href="/about">About Us</Link>
+      </li>
+      <li>
+        <Link href="/faq">FAQ</Link>
+      </li>
+      <li>
+        <Link href="/contact">Contact</Link>
       </li>
     </ul>
   );
@@ -242,43 +104,7 @@ const Header1 = () => {
                   </div>
                 </div>
                 <div className="header-right d-flex justify-content-end align-items-center">
-                  <div className="menu-cart">
-                    <div className="cart-box">
-                      <ul>
-                        <li>
-                          <img src="/assets/img/shop-food/s2.png" alt="image" />
-                          <div className="cart-product">
-                            <a href="#0">grilled chiken</a>
-                            <span>168$</span>
-                          </div>
-                        </li>
-                      </ul>
-                      <ul>
-                        <li className="border-none">
-                          <img src="/assets/img/shop-food/s3.png" alt="image" />
-                          <div className="cart-product">
-                            <a href="#0">grilled chiken</a>
-                            <span>168$</span>
-                          </div>
-                        </li>
-                      </ul>
-                      <div className="shopping-items d-flex align-items-center justify-content-between">
-                        <span>Shopping : $20.00</span>
-                        <span>Total : $168.00</span>
-                      </div>
-                      <div className="cart-button d-flex justify-content-between mb-4">
-                        <Link href="shop-cart" className="theme-btn">
-                          View Cart
-                        </Link>
-                        <Link href="checkout" className="theme-btn bg-red-2">
-                          Checkout
-                        </Link>
-                      </div>
-                    </div>
-                    <Link href="shop-cart" className="cart-icon">
-                      <i className="far fa-shopping-basket" />
-                    </Link>
-                  </div>
+                  <HeaderCart iconClass="far fa-shopping-basket" />
                   <div className="header-button">
                     <Link href="contact" className="theme-btn bg-red-2">
                       contact us
@@ -355,43 +181,7 @@ const Header2 = () => {
                   <a href="#0" className="search-trigger search-icon">
                     <i className="fal fa-search" />
                   </a>
-                  <div className="menu-cart">
-                    <div className="cart-box">
-                      <ul>
-                        <li>
-                          <img src="/assets/img/shop-food/s2.png" alt="image" />
-                          <div className="cart-product">
-                            <a href="#0">grilled chiken</a>
-                            <span>168$</span>
-                          </div>
-                        </li>
-                      </ul>
-                      <ul>
-                        <li className="border-none">
-                          <img src="/assets/img/shop-food/s3.png" alt="image" />
-                          <div className="cart-product">
-                            <a href="#0">grilled chiken</a>
-                            <span>168$</span>
-                          </div>
-                        </li>
-                      </ul>
-                      <div className="shopping-items d-flex align-items-center justify-content-between">
-                        <span>Shopping : $20.00</span>
-                        <span>Total : $168.00</span>
-                      </div>
-                      <div className="cart-button d-flex justify-content-between mb-4">
-                        <Link href="shop-cart" className="theme-btn">
-                          View Cart
-                        </Link>
-                        <Link href="checkout" className="theme-btn bg-red-2">
-                          Checkout
-                        </Link>
-                      </div>
-                    </div>
-                    <Link href="shop-cart" className="cart-icon">
-                      <i className="far fa-shopping-cart" />
-                    </Link>
-                  </div>
+                  <HeaderCart iconClass="far fa-shopping-cart" />
                   <div className="header-button">
                     <a
                       hLinkef="shop-single"
@@ -601,206 +391,22 @@ const MobileMenu = () => {
         </a>
         <nav className="mean-nav">
           <ul>
-            <li className="has-dropdown active">
-              <Link href="/">
-                Home Page
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu has-homemenu" style={activeLi("home")}>
-                <li className="border-none">
-                  <div className="row g-4">
-                    <div className="col-lg-4 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="/assets/img/header/home-1.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="/" className="theme-btn">
-                            View Demo
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">
-                          <Link href="/">Home 01</Link>
-                        </h4>
-                      </div>
-                    </div>
-                    <div className="col-lg-4  homemenu">
-                      <div className="homemenu-thumb mb-15">
-                        <img src="/assets/img/header/home-2.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="/index-2" className="theme-btn">
-                            View Demo
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">
-                          <Link href="/index-2">Home 02</Link>
-                        </h4>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 homemenu">
-                      <div className="homemenu-thumb mb-15">
-                        <img src="/assets/img/header/home-3.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="/index-3" className="theme-btn">
-                            View Demo
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">
-                          <Link href="/index-3">Home 03</Link>
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => activeMenuSet("home")}
-              >
-                <i className="far fa-plus" />
-              </a>
-            </li>
-            <li className="has-dropdown">
-              <Link href="/shop">
-                Shop
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu" style={activeLi("shop")}>
-                <li>
-                  <Link href="/shop">Shop Grid</Link>
-                </li>
-                <li>
-                  <Link href="/shop-list">Shop List</Link>
-                </li>
-                <li>
-                  <Link href="/shop-left-sidebar">Shop Left SideBar</Link>
-                </li>
-                <li>
-                  <Link href="/shop-right-sidebar">Shop Right SideBar</Link>
-                </li>
-                <li>
-                  <Link href="/shop-single">Shop Single</Link>
-                </li>
-                <li>
-                  <Link href="/shop-cart">Shop Cart</Link>
-                </li>
-                <li>
-                  <Link href="/checkout">checkout</Link>
-                </li>
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => activeMenuSet("shop")}
-              >
-                <i className="far fa-plus" />
-              </a>
+            <li>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/news">
-                Blog
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu" style={activeLi("news")}>
-                <li>
-                  <Link href="/news">Blog</Link>
-                </li>
-                <li>
-                  <Link href="/news-details">Blog Details</Link>
-                </li>
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => activeMenuSet("news")}
-              >
-                <i className="far fa-plus" />
-              </a>
+              <Link href="/menu">Menu</Link>
             </li>
-            <li className="has-dropdown">
-              <Link href="/news">
-                Pages
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu" style={activeLi("pages")}>
-                <li>
-                  <Link href="/about">About Us</Link>
-                </li>
-                <li className="has-dropdown">
-                  <Link href="/team">
-                    Chef Page
-                    <i className="fas fa-angle-down" />
-                  </Link>
-                  <ul className="submenu" style={multiMenuActiveLi("team")}>
-                    <li>
-                      <Link href="/team">Chef</Link>
-                    </li>
-                    <li>
-                      <Link href="/team-details">Chef Details</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => multiMenuSet("team")}
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </li>
-                <li className="has-dropdown">
-                  <Link href="/food-menu">
-                    Food Menu
-                    <i className="fas fa-angle-down" />
-                  </Link>
-                  <ul
-                    className="submenu"
-                    style={multiMenuActiveLi("food-menu")}
-                  >
-                    <li>
-                      <Link href="/food-menu">Food Menu 01</Link>
-                    </li>
-                    <li>
-                      <Link href="/food-menu-2">Food Menu 02</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => multiMenuSet("food-menu")}
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </li>
-                <li>
-                  <Link href="/gallery">Gallery</Link>
-                </li>
-                <li>
-                  <Link href="/testimonial">testimonial</Link>
-                </li>
-                <li>
-                  <Link href="/reservation">Reservation</Link>
-                </li>
-                <li>
-                  <Link href="/faq">Faq's</Link>
-                </li>
-                <li>
-                  <Link href="/404">404 Page</Link>
-                </li>
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => activeMenuSet("pages")}
-              >
-                <i className="far fa-plus" />
-              </a>
+            <li>
+              <Link href="/shop-cart">Cart</Link>
             </li>
-            <li className="mean-last">
+            <li>
+              <Link href="/about">About Us</Link>
+            </li>
+            <li>
+              <Link href="/faq">FAQ</Link>
+            </li>
+            <li>
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
