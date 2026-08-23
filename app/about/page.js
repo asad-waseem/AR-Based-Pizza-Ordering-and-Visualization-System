@@ -21,10 +21,10 @@ const page = () => {
                 data-wow-delay=".3s"
               >
                 <div className="about-image">
-                  <img src="assets/img/about/burger.png" alt="about-img" />
+                  <img src="/assets/img/about/burger.png" alt="about-img" />
                   <div className="burger-text">
                     <img
-                      src="assets/img/about/burger-text.png"
+                      src="/assets/img/about/burger-text.png"
                       alt="shape-img"
                     />
                   </div>
@@ -36,7 +36,7 @@ const page = () => {
                   <div
                     className="since-text bg-cover"
                     style={{
-                      backgroundImage: 'url("assets/img/shape/food-shape.png")',
+                      backgroundImage: 'url("/assets/img/shape/food-shape.png")',
                     }}
                   >
                     <h3>since /1985</h3>
@@ -116,14 +116,14 @@ const page = () => {
       <section
         className="main-cta-banner-2 section-padding bg-cover"
         style={{
-          backgroundImage: 'url("assets/img/banner/main-cta-bg-2.jpg")',
+          backgroundImage: 'url("/assets/img/banner/main-cta-bg-2.jpg")',
         }}
       >
         <div className="tomato-shape-left float-bob-y">
-          <img src="assets/img/tomato.png" alt="shape-img" />
+          <img src="/assets/img/tomato.png" alt="shape-img" />
         </div>
         <div className="chili-shape-right float-bob-y">
-          <img src="assets/img/chilli.png" alt="shape-img" />
+          <img src="/assets/img/chilli.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="main-cta-banner-wrapper-2 d-flex align-items-center justify-content-between">
@@ -149,7 +149,7 @@ const page = () => {
               </span>
             </Link>
             <div className="delivery-man">
-              <img src="assets/img/delivery-man-2.png" alt="img" />
+              <img src="/assets/img/delivery-man-2.png" alt="img" />
             </div>
           </div>
         </div>
@@ -164,7 +164,7 @@ const page = () => {
               <div
                 className="burger-banner-items bg-cover"
                 style={{
-                  backgroundImage: "url(assets/img/banner/burger-bg.png)",
+                  backgroundImage: "url(/assets/img/banner/burger-bg.png)",
                 }}
               >
                 <div className="burger-content text-center">
@@ -177,16 +177,16 @@ const page = () => {
                   </h4>
                 </div>
                 <div className="burger-image">
-                  <img src="assets/img/food/big-burger.png" alt="food-img" />
+                  <img src="/assets/img/food/big-burger.png" alt="food-img" />
                 </div>
                 <div className="text-shape">
                   <img
-                    src="assets/img/shape/pizza-text-2.png"
+                    src="/assets/img/shape/pizza-text-2.png"
                     alt="shape-img"
                   />
                 </div>
                 <div className="burger-text">
-                  <img src="assets/img/shape/burger-text.png" alt="shape-img" />
+                  <img src="/assets/img/shape/burger-text.png" alt="shape-img" />
                 </div>
               </div>
             </div>
@@ -194,7 +194,7 @@ const page = () => {
               <div
                 className="single-offer-items style-2 bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/pepsi-bg.png")',
+                  backgroundImage: 'url("/assets/img/banner/pepsi-bg.png")',
                 }}
               >
                 <div className="offer-content">
@@ -213,12 +213,12 @@ const page = () => {
                 </div>
                 <div className="offer-img">
                   <img
-                    src="assets/img/offer/50percent-off-3.png"
+                    src="/assets/img/offer/50percent-off-3.png"
                     alt="shape-img"
                   />
                 </div>
                 <div className="roller-box">
-                  <img src="assets/img/food/roller-box.png" alt="food-img" />
+                  <img src="/assets/img/food/roller-box.png" alt="food-img" />
                 </div>
               </div>
             </div>
@@ -237,14 +237,14 @@ const page = () => {
             <div className="col-xl-4 col-lg-5">
               <div
                 className="best-sale-content style-2 bg-cover"
-                style={{ backgroundImage: 'url("assets/img/shape.png")' }}
+                style={{ backgroundImage: 'url("/assets/img/shape.png")' }}
               >
                 <div className="burger-shape">
-                  <img src="assets/img/shape/fry-shape-4.png" alt="shape-img" />
+                  <img src="/assets/img/shape/fry-shape-4.png" alt="shape-img" />
                 </div>
                 <div className="fry-shape">
                   <img
-                    src="assets/img/shape/burger-shape-4.png"
+                    src="/assets/img/shape/burger-shape-4.png"
                     alt="shape-img"
                   />
                 </div>
@@ -294,7 +294,7 @@ const page = () => {
             >
               <div className="single-team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/01.jpg" alt="team-img" />
+                  <img src="/assets/img/team/01.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -324,7 +324,7 @@ const page = () => {
             >
               <div className="single-team-items active">
                 <div className="team-image">
-                  <img src="assets/img/team/02.jpg" alt="team-img" />
+                  <img src="/assets/img/team/02.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -354,7 +354,7 @@ const page = () => {
             >
               <div className="single-team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/03.jpg" alt="team-img" />
+                  <img src="/assets/img/team/03.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -393,7 +393,7 @@ const page = () => {
       <section
         className="food-processing-section section-padding fix bg-cover"
         style={{
-          backgroundImage: 'url("assets/img/shape/about-food-bg.png")',
+          backgroundImage: 'url("/assets/img/shape/about-food-bg.png")',
         }}
       >
         <div className="container">
@@ -411,7 +411,7 @@ const page = () => {
               >
                 <div className="food-processing-items style-2 center">
                   <div className="food-processing-image">
-                    <img src="assets/img/choose/01.png" alt="img" />
+                    <img src="/assets/img/choose/01.png" alt="img" />
                     <div className="number">
                       <span>01</span>
                     </div>
@@ -431,7 +431,7 @@ const page = () => {
               >
                 <div className="food-processing-items style-2 center active">
                   <div className="food-processing-image">
-                    <img src="assets/img/choose/02.png" alt="img" />
+                    <img src="/assets/img/choose/02.png" alt="img" />
                     <div className="number">
                       <span>02</span>
                     </div>
@@ -451,7 +451,7 @@ const page = () => {
               >
                 <div className="food-processing-items style-2 center">
                   <div className="food-processing-image">
-                    <img src="assets/img/choose/03.png" alt="img" />
+                    <img src="/assets/img/choose/03.png" alt="img" />
                     <div className="number">
                       <span>03</span>
                     </div>
@@ -474,7 +474,7 @@ const page = () => {
       {/* Booking Section Start */}
       <section
         className="booking-section mt-0 fix section-padding bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/main-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/banner/main-bg.jpg")' }}
       >
         <div className="container">
           <div className="booking-wrapper">
@@ -517,7 +517,7 @@ const page = () => {
                   className="booking-contact bg-cover"
                   style={{
                     backgroundImage:
-                      'url("assets/img/shape/booking-shape.png")',
+                      'url("/assets/img/shape/booking-shape.png")',
                   }}
                 >
                   <h4 className="text-center text-white">

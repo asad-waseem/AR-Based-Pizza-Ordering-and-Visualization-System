@@ -26,7 +26,7 @@ const BlogSidebar = () => {
               <div
                 className="thumb bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/news/pp1.jpg")',
+                  backgroundImage: 'url("/assets/img/news/pp1.jpg")',
                 }}
               />
               <div className="post-content">
@@ -45,7 +45,7 @@ const BlogSidebar = () => {
               <div
                 className="thumb bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/news/pp2.jpg")',
+                  backgroundImage: 'url("/assets/img/news/pp2.jpg")',
                 }}
               />
               <div className="post-content">
@@ -64,7 +64,7 @@ const BlogSidebar = () => {
               <div
                 className="thumb bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/news/pp3.jpg")',
+                  backgroundImage: 'url("/assets/img/news/pp3.jpg")',
                 }}
               />
               <div className="post-content">

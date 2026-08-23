@@ -49,7 +49,7 @@ const page = () => {
                         words—and especially through food.
                       </p>
                       <img
-                        src="assets/img/news/post-4.jpg"
+                        src="/assets/img/news/post-4.jpg"
                         alt="blog__img"
                         className="single-post-image"
                       />
@@ -98,7 +98,7 @@ const page = () => {
                       </p>
                       <img
                         className="alignleft"
-                        src="assets/img/news/post-inner.jpg"
+                        src="/assets/img/news/post-inner.jpg"
                         alt="blog__img"
                       />
                       <p>
@@ -153,7 +153,7 @@ const page = () => {
                       <li className="single-comment-item">
                         <div className="author-img">
                           <img
-                            src="assets/img/news/author_img2.jpg"
+                            src="/assets/img/news/author_img2.jpg"
                             alt="img"
                           />
                         </div>
@@ -182,7 +182,7 @@ const page = () => {
                       <li className="single-comment-item">
                         <div className="author-img">
                           <img
-                            src="assets/img/news/author_img3.jpg"
+                            src="/assets/img/news/author_img3.jpg"
                             alt="img"
                           />
                         </div>
@@ -211,7 +211,7 @@ const page = () => {
                           <li className="single-comment-item">
                             <div className="author-img">
                               <img
-                                src="assets/img/news/author_img4.jpg"
+                                src="/assets/img/news/author_img4.jpg"
                                 alt="img"
                               />
                             </div>

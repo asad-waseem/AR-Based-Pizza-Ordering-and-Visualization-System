@@ -11,13 +11,13 @@ const TestimonialSlider = ({ sectionBg = true }) => {
       }`}
     >
       <div className="burger-shape">
-        <img src="assets/img/shape/burger-shape-3.png" alt="burger-shape" />
+        <img src="/assets/img/shape/burger-shape-3.png" alt="burger-shape" />
       </div>
       <div className="fry-shape">
-        <img src="assets/img/shape/fry-shape-2.png" alt="burger-shape" />
+        <img src="/assets/img/shape/fry-shape-2.png" alt="burger-shape" />
       </div>
       <div className="pizza-shape">
-        <img src="assets/img/shape/pizzashape.png" alt="burger-shape" />
+        <img src="/assets/img/shape/pizzashape.png" alt="burger-shape" />
       </div>
       <div className="container">
         <div className="testimonial-wrapper style-responsive">
@@ -159,7 +159,7 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                     <div
                       className="client-img bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/client/01.jpg")',
+                        backgroundImage: 'url("/assets/img/client/01.jpg")',
                       }}
                     />
                   </div>
@@ -169,7 +169,7 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                     <div
                       className="client-img bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/client/02.jpg")',
+                        backgroundImage: 'url("/assets/img/client/02.jpg")',
                       }}
                     />
                   </div>
@@ -179,7 +179,7 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                     <div
                       className="client-img bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/client/03.jpg")',
+                        backgroundImage: 'url("/assets/img/client/03.jpg")',
                       }}
                     />
                   </div>
@@ -189,7 +189,7 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                     <div
                       className="client-img bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/client/01.jpg")',
+                        backgroundImage: 'url("/assets/img/client/01.jpg")',
                       }}
                     />
                   </div>
@@ -199,7 +199,7 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                     <div
                       className="client-img bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/client/02.jpg")',
+                        backgroundImage: 'url("/assets/img/client/02.jpg")',
                       }}
                     />
                   </div>
@@ -209,7 +209,7 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                     <div
                       className="client-img bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/client/03.jpg")',
+                        backgroundImage: 'url("/assets/img/client/03.jpg")',
                       }}
                     />
                   </div>
@@ -230,16 +230,16 @@ export const TestimonialSlider2 = () => {
       <div className="container">
         <div
           className="testimonial-wrapper-2 bg-cover"
-          style={{ backgroundImage: 'url("assets/img/client/bg-shape.png")' }}
+          style={{ backgroundImage: 'url("/assets/img/client/bg-shape.png")' }}
         >
           <div className="row align-items-center">
             <div className="col-xl-4 col-lg-4">
               <div
                 className="testimonial-image bg-cover"
-                style={{ backgroundImage: 'url("assets/img/client/04.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/client/04.jpg")' }}
               >
                 <div className="feedback d-flex align-items-center">
-                  <img src="assets/img/feedback.svg" alt="img" />
+                  <img src="/assets/img/feedback.svg" alt="img" />
                   <h4>Feedback</h4>
                 </div>
               </div>
@@ -358,7 +358,7 @@ export const TestimonialSlider3 = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonial-content">
                       <div className="info-icon d-flex align-items-center">
-                        <img src="assets/img/icon/quote.svg" alt="icon-img" />
+                        <img src="/assets/img/icon/quote.svg" alt="icon-img" />
                         <h4>Quality Food</h4>
                         <div className="star">
                           <span className="fas fa-star" />
@@ -378,7 +378,7 @@ export const TestimonialSlider3 = () => {
                         <div
                           className="client-image bg-cover"
                           style={{
-                            backgroundImage: 'url("assets/img/client/06.jpg")',
+                            backgroundImage: 'url("/assets/img/client/06.jpg")',
                           }}
                         />
                         <div className="title">
@@ -392,7 +392,7 @@ export const TestimonialSlider3 = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonial-content">
                       <div className="info-icon d-flex align-items-center">
-                        <img src="assets/img/icon/quote.svg" alt="icon-img" />
+                        <img src="/assets/img/icon/quote.svg" alt="icon-img" />
                         <h4>Quality Food</h4>
                         <div className="star">
                           <span className="fas fa-star" />
@@ -412,7 +412,7 @@ export const TestimonialSlider3 = () => {
                         <div
                           className="client-image bg-cover"
                           style={{
-                            backgroundImage: 'url("assets/img/client/06.jpg")',
+                            backgroundImage: 'url("/assets/img/client/06.jpg")',
                           }}
                         />
                         <div className="title">
@@ -426,7 +426,7 @@ export const TestimonialSlider3 = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonial-content">
                       <div className="info-icon d-flex align-items-center">
-                        <img src="assets/img/icon/quote.svg" alt="icon-img" />
+                        <img src="/assets/img/icon/quote.svg" alt="icon-img" />
                         <h4>Quality Food</h4>
                         <div className="star">
                           <span className="fas fa-star" />
@@ -446,7 +446,7 @@ export const TestimonialSlider3 = () => {
                         <div
                           className="client-image bg-cover"
                           style={{
-                            backgroundImage: 'url("assets/img/client/06.jpg")',
+                            backgroundImage: 'url("/assets/img/client/06.jpg")',
                           }}
                         />
                         <div className="title">
@@ -460,7 +460,7 @@ export const TestimonialSlider3 = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonial-content">
                       <div className="info-icon d-flex align-items-center">
-                        <img src="assets/img/icon/quote.svg" alt="icon-img" />
+                        <img src="/assets/img/icon/quote.svg" alt="icon-img" />
                         <h4>Quality Food</h4>
                         <div className="star">
                           <span className="fas fa-star" />
@@ -480,7 +480,7 @@ export const TestimonialSlider3 = () => {
                         <div
                           className="client-image bg-cover"
                           style={{
-                            backgroundImage: 'url("assets/img/client/06.jpg")',
+                            backgroundImage: 'url("/assets/img/client/06.jpg")',
                           }}
                         />
                         <div className="title">
@@ -497,7 +497,7 @@ export const TestimonialSlider3 = () => {
             <div className="col-xl-4 col-lg-4 mt-5 mt-lg-0">
               <div
                 className="testimonial-image bg-cover"
-                style={{ backgroundImage: 'url("assets/img/client/07.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/client/07.jpg")' }}
               />
             </div>
           </div>

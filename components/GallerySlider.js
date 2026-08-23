@@ -23,7 +23,7 @@ const GallerySlider = () => {
           <div className="swiper-wrapper">
             <SwiperSlide className="swiper-slide">
               <div className="gallery-image">
-                <img src="assets/img/gallery/01.jpg" alt="gallery-img" />
+                <img src="/assets/img/gallery/01.jpg" alt="gallery-img" />
                 <div className="icon">
                   <Link href="/gallery">
                     <i className="far fa-link" />
@@ -33,7 +33,7 @@ const GallerySlider = () => {
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <div className="gallery-image">
-                <img src="assets/img/gallery/02.jpg" alt="gallery-img" />
+                <img src="/assets/img/gallery/02.jpg" alt="gallery-img" />
                 <div className="icon">
                   <Link href="/gallery">
                     <i className="far fa-link" />
@@ -43,7 +43,7 @@ const GallerySlider = () => {
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <div className="gallery-image">
-                <img src="assets/img/gallery/03.jpg" alt="gallery-img" />
+                <img src="/assets/img/gallery/03.jpg" alt="gallery-img" />
                 <div className="icon">
                   <Link href="/gallery">
                     <i className="far fa-link" />
@@ -53,7 +53,7 @@ const GallerySlider = () => {
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <div className="gallery-image">
-                <img src="assets/img/gallery/01.jpg" alt="gallery-img" />
+                <img src="/assets/img/gallery/01.jpg" alt="gallery-img" />
                 <div className="icon">
                   <Link href="/gallery">
                     <i className="far fa-link" />
@@ -63,7 +63,7 @@ const GallerySlider = () => {
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <div className="gallery-image">
-                <img src="assets/img/gallery/02.jpg" alt="gallery-img" />
+                <img src="/assets/img/gallery/02.jpg" alt="gallery-img" />
                 <div className="icon">
                   <Link href="/gallery">
                     <i className="far fa-link" />
@@ -73,7 +73,7 @@ const GallerySlider = () => {
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <div className="gallery-image">
-                <img src="assets/img/gallery/03.jpg" alt="gallery-img" />
+                <img src="/assets/img/gallery/03.jpg" alt="gallery-img" />
                 <div className="icon">
                   <Link href="/gallery">
                     <i className="far fa-link" />

@@ -23,7 +23,7 @@ const page = () => {
             >
               <div className="single-team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/01.jpg" alt="team-img" />
+                  <img src="/assets/img/team/01.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -53,7 +53,7 @@ const page = () => {
             >
               <div className="single-team-items active">
                 <div className="team-image">
-                  <img src="assets/img/team/02.jpg" alt="team-img" />
+                  <img src="/assets/img/team/02.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -83,7 +83,7 @@ const page = () => {
             >
               <div className="single-team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/03.jpg" alt="team-img" />
+                  <img src="/assets/img/team/03.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -113,7 +113,7 @@ const page = () => {
             >
               <div className="single-team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/04.jpg" alt="team-img" />
+                  <img src="/assets/img/team/04.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -143,7 +143,7 @@ const page = () => {
             >
               <div className="single-team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/05.jpg" alt="team-img" />
+                  <img src="/assets/img/team/05.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -173,7 +173,7 @@ const page = () => {
             >
               <div className="single-team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/06.jpg" alt="team-img" />
+                  <img src="/assets/img/team/06.jpg" alt="team-img" />
                   <div className="social-link">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
@@ -203,13 +203,13 @@ const page = () => {
       {/* Video Section Start */}
       <div
         className="video-section-2 style-2 fix bg-cover"
-        style={{ backgroundImage: 'url("assets/img/bg-image/bg-shape.png")' }}
+        style={{ backgroundImage: 'url("/assets/img/bg-image/bg-shape.png")' }}
       >
         <div className="container">
           <div
             className="video-wrapper bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/banner/video-bg-3.jpg")',
+              backgroundImage: 'url("/assets/img/banner/video-bg-3.jpg")',
             }}
           >
             <div className="video-btn video-pulse center">
@@ -226,7 +226,7 @@ const page = () => {
       {/* Choose Us Section Start */}
       <section
         className="choose-us-2 fix section-padding bg-cover theme-bg"
-        style={{ backgroundImage: 'url("assets/img/bg-image/bg-shape.png")' }}
+        style={{ backgroundImage: 'url("/assets/img/bg-image/bg-shape.png")' }}
       >
         <div className="container">
           <div className="food-icon-wrapper-2">
@@ -237,7 +237,7 @@ const page = () => {
               >
                 <div className="single-food-icon">
                   <div className="icon">
-                    <img src="assets/img/icon/01.svg" alt="icon-img" />
+                    <img src="/assets/img/icon/01.svg" alt="icon-img" />
                   </div>
                   <div className="content">
                     <h3>Best Quality Food</h3>
@@ -253,7 +253,7 @@ const page = () => {
               >
                 <div className="single-food-icon">
                   <div className="icon">
-                    <img src="assets/img/icon/02.svg" alt="icon-img" />
+                    <img src="/assets/img/icon/02.svg" alt="icon-img" />
                   </div>
                   <div className="content">
                     <h3>fast food delivery</h3>
@@ -269,7 +269,7 @@ const page = () => {
               >
                 <div className="single-food-icon">
                   <div className="icon">
-                    <img src="assets/img/icon/03.svg" alt="icon-img" />
+                    <img src="/assets/img/icon/03.svg" alt="icon-img" />
                   </div>
                   <div className="content">
                     <h3>money back guarantee</h3>
@@ -285,7 +285,7 @@ const page = () => {
               >
                 <div className="single-food-icon">
                   <div className="icon">
-                    <img src="assets/img/icon/04.svg" alt="icon-img" />
+                    <img src="/assets/img/icon/04.svg" alt="icon-img" />
                   </div>
                   <div className="content">
                     <h3>100% natural food</h3>
@@ -339,7 +339,7 @@ const page = () => {
                   className="booking-contact style-2 bg-cover"
                   style={{
                     backgroundImage:
-                      'url("assets/img/shape/booking-shape.png")',
+                      'url("/assets/img/shape/booking-shape.png")',
                   }}
                 >
                   <h4 className="text-center text-white">
@@ -398,18 +398,18 @@ const page = () => {
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">dishes</span>
                 <span className="text-slider">
-                  <img src="assets/img/star.svg" alt="icon-img" />
+                  <img src="/assets/img/star.svg" alt="icon-img" />
                 </span>{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">delicious</span>
                 <span className="text-slider text-color">food</span>{" "}
-                <img src="assets/img/star.svg" alt="icon-img" />{" "}
+                <img src="/assets/img/star.svg" alt="icon-img" />{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">populer</span>
                 <span className="text-slider text-color">dishes</span>{" "}
                 <span className="text-slider" />
                 <span className="text-slider">
-                  <img src="assets/img/star.svg" alt="icon-img" />
+                  <img src="/assets/img/star.svg" alt="icon-img" />
                 </span>{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">delicious</span>
@@ -417,18 +417,18 @@ const page = () => {
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">dishes</span>
                 <span className="text-slider">
-                  <img src="assets/img/star.svg" alt="icon-img" />
+                  <img src="/assets/img/star.svg" alt="icon-img" />
                 </span>{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">delicious</span>
                 <span className="text-slider text-color">food</span>{" "}
-                <img src="assets/img/star.svg" alt="icon-img" />{" "}
+                <img src="/assets/img/star.svg" alt="icon-img" />{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">populer</span>
                 <span className="text-slider text-color">dishes</span>{" "}
                 <span className="text-slider" />
                 <span className="text-slider">
-                  <img src="assets/img/star.svg" alt="icon-img" />
+                  <img src="/assets/img/star.svg" alt="icon-img" />
                 </span>{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">delicious</span>
@@ -444,12 +444,12 @@ const page = () => {
             <div
               className="food-banner-items-2 bg-cover"
               style={{
-                backgroundImage: "url(assets/img/banner/food-bg.jpg)",
+                backgroundImage: "url(/assets/img/banner/food-bg.jpg)",
               }}
             >
               <div
                 className="price bg-cover"
-                style={{ backgroundImage: 'url("assets/img/vector.png")' }}
+                style={{ backgroundImage: 'url("/assets/img/vector.png")' }}
               >
                 <span>$38</span>
               </div>
@@ -470,12 +470,12 @@ const page = () => {
             <div
               className="food-banner-items-2 bg-cover"
               style={{
-                backgroundImage: "url(assets/img/banner/food-bg-2.jpg)",
+                backgroundImage: "url(/assets/img/banner/food-bg-2.jpg)",
               }}
             >
               <div
                 className="price style-2 bg-cover"
-                style={{ backgroundImage: 'url("assets/img/vector-2.png")' }}
+                style={{ backgroundImage: 'url("/assets/img/vector-2.png")' }}
               >
                 <span>$43</span>
               </div>
@@ -499,12 +499,12 @@ const page = () => {
             <div
               className="food-banner-items-2 bg-cover"
               style={{
-                backgroundImage: "url(assets/img/banner/food-bg-3.jpg)",
+                backgroundImage: "url(/assets/img/banner/food-bg-3.jpg)",
               }}
             >
               <div
                 className="price bg-cover"
-                style={{ backgroundImage: 'url("assets/img/vector.png")' }}
+                style={{ backgroundImage: 'url("/assets/img/vector.png")' }}
               >
                 <span>$38</span>
               </div>

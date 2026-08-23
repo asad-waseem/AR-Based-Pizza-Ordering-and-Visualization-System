@@ -6,7 +6,7 @@ const ReservationForm = () => {
     <div
       className="booking-contact bg-cover"
       style={{
-        backgroundImage: 'url("assets/img/shape/booking-shape.png")',
+        backgroundImage: 'url("/assets/img/shape/booking-shape.png")',
       }}
     >
       <h4 className="text-center text-white">create an reservation</h4>

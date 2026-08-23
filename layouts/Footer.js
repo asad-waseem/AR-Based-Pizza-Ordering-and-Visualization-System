@@ -15,10 +15,10 @@ const Footer1 = () => {
   return (
     <footer className="footer-section fix section-bg">
       <div className="burger-shape">
-        <img src="assets/img/shape/burger-shape-3.png" alt="burger-shape" />
+        <img src="/assets/img/shape/burger-shape-3.png" alt="burger-shape" />
       </div>
       <div className="fry-shape">
-        <img src="assets/img/shape/fry-shape-2.png" alt="burger-shape" />
+        <img src="/assets/img/shape/fry-shape-2.png" alt="burger-shape" />
       </div>
       <div className="container">
         <div className="footer-widgets-wrapper">
@@ -30,7 +30,7 @@ const Footer1 = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/logo.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/logo.svg" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -146,10 +146,10 @@ const Footer1 = () => {
                   <h5>From App Store or Google Play</h5>
                   <div className="apps-image d-flex align-items-center">
                     <a href="#">
-                      <img src="assets/img/app-store.png" alt="store-img" />
+                      <img src="/assets/img/app-store.png" alt="store-img" />
                     </a>
                     <a href="#">
-                      <img src="assets/img/google-play.png" alt="store-img" />
+                      <img src="/assets/img/google-play.png" alt="store-img" />
                     </a>
                   </div>
                   <div className="support-text">
@@ -172,7 +172,7 @@ const Footer1 = () => {
               <Link href="/">Foodking </Link>. All Rights Reserved.
             </p>
             <div className="card-image wow fadeInRight" data-wow-delay=".5s">
-              <img src="assets/img/card.png" alt="card-img" />
+              <img src="/assets/img/card.png" alt="card-img" />
             </div>
           </div>
         </div>
@@ -185,10 +185,10 @@ const Footer2 = () => {
   return (
     <footer className="footer-section section-bg-3 fix">
       <div className="footer-shape">
-        <img src="assets/img/shape/footer-shape.png" alt="shape-img" />
+        <img src="/assets/img/shape/footer-shape.png" alt="shape-img" />
       </div>
       <div className="footer-shape-2">
-        <img src="assets/img/shape/footer-shape-2.png" alt="shape-img" />
+        <img src="/assets/img/shape/footer-shape-2.png" alt="shape-img" />
       </div>
       <div className="container">
         <div className="footer-widgets-wrapper style-2">
@@ -200,7 +200,7 @@ const Footer2 = () => {
               <div className="single-footer-widget pe-md-5 border-right">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/logo-2.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/logo-2.svg" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -311,7 +311,7 @@ const Footer2 = () => {
         <div
           id="scrollUp"
           className="scroll-icon bg-cover"
-          style={{ backgroundImage: 'url("assets/img/shop-food/box.png")' }}
+          style={{ backgroundImage: 'url("/assets/img/shop-food/box.png")' }}
         >
           <i className="fas fa-arrow-alt-up" />
         </div>

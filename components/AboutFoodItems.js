@@ -41,7 +41,7 @@ const AboutFoodItems = () => {
                           <div className="about-food-items center">
                             <div className="food-image">
                               <img
-                                src={`assets/img/about-food/${
+                                src={`/assets/img/about-food/${
                                   [
                                     "pizza",
                                     "potato",
@@ -86,7 +86,7 @@ export const AboutFoodItems2 = () => {
         <div
           className="about-food-wrapper bg-cover"
           style={{
-            backgroundImage: 'url("assets/img/shape/about-food-bg.png")',
+            backgroundImage: 'url("/assets/img/shape/about-food-bg.png")',
           }}
         >
           <div className="section-title text-center">
@@ -124,7 +124,7 @@ export const AboutFoodItems2 = () => {
                           <div className="about-food-items center">
                             <div className="food-image">
                               <img
-                                src={`assets/img/about-food/${
+                                src={`/assets/img/about-food/${
                                   [
                                     "pizza",
                                     "potato",

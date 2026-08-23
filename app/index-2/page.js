@@ -14,7 +14,7 @@ const page = () => {
       {/* Food Banner Section Start */}
       <section className="food-banner-section section-padding fix">
         <div className="burger-shape-2">
-          <img src="assets/img/shape/burger-shape-2.png" alt="shape-img" />
+          <img src="/assets/img/shape/burger-shape-2.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="row g-4">
@@ -25,7 +25,7 @@ const page = () => {
               <div
                 className="single-offer-items bg-cover style-3"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/offer-bg-2.png")',
+                  backgroundImage: 'url("/assets/img/banner/offer-bg-2.png")',
                 }}
               >
                 <div className="offer-content">
@@ -40,12 +40,12 @@ const page = () => {
                 </div>
                 <div className="offer-image-2">
                   <img
-                    src="assets/img/offer/50percent-off-2.png"
+                    src="/assets/img/offer/50percent-off-2.png"
                     alt="offer-img"
                   />
                 </div>
                 <div className="small-pizza">
-                  <img src="assets/img/food/small-pizza.png" alt="pizza-img" />
+                  <img src="/assets/img/food/small-pizza.png" alt="pizza-img" />
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const page = () => {
               <div
                 className="single-offer-items bg-cover style-3"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/french-fry-bg.png")',
+                  backgroundImage: 'url("/assets/img/banner/french-fry-bg.png")',
                 }}
               >
                 <div className="french-content">
@@ -75,7 +75,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="french-image">
-                  <img src="assets/img/food/french-fry.png" alt="food-img" />
+                  <img src="/assets/img/food/french-fry.png" alt="food-img" />
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ const page = () => {
               <div
                 className="single-offer-items bg-cover style-3"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/chiken-bg.png")',
+                  backgroundImage: 'url("/assets/img/banner/chiken-bg.png")',
                 }}
               >
                 <div className="offer-content">
@@ -101,12 +101,12 @@ const page = () => {
                 </div>
                 <div className="offer-shape-3">
                   <img
-                    src="assets/img/offer/50percent-off-4.png"
+                    src="/assets/img/offer/50percent-off-4.png"
                     alt="shape-img"
                   />
                 </div>
                 <div className="main-food-3">
-                  <img src="assets/img/food/main-food-3.png" alt="pizza-img" />
+                  <img src="/assets/img/food/main-food-3.png" alt="pizza-img" />
                 </div>
               </div>
             </div>
@@ -116,14 +116,14 @@ const page = () => {
       {/* About Section Start */}
       <section className="about-section section-padding pt-0">
         <div className="leaves-shape">
-          <img src="assets/img/shape/leaves.png" alt="shape-img" />
+          <img src="/assets/img/shape/leaves.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="about-wrapper-2">
             <div className="row align-items-center">
               <div className="col-xl-5 col-lg-5">
                 <div className="pizza-image">
-                  <img src="assets/img/about/pizza.jpg" alt="pizza-img" />
+                  <img src="/assets/img/about/pizza.jpg" alt="pizza-img" />
                   <div className="quate-content">
                     <h3>
                       we cook <span>hot</span> <br />
@@ -144,10 +144,10 @@ const page = () => {
                         className="profile-img bg-cover"
                         style={{
                           backgroundImage:
-                            'url("assets/img/about/profile.jpg")',
+                            'url("/assets/img/about/profile.jpg")',
                         }}
                       />
-                      <img src="assets/img/about/signatre.jpg" alt="img" />
+                      <img src="/assets/img/about/signatre.jpg" alt="img" />
                     </div>
                     <Link
                       href="/about"
@@ -168,7 +168,7 @@ const page = () => {
       {/* Video Banner Section Start */}
       <div
         className="video-section section-padding bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/video-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/banner/video-bg.jpg")' }}
       >
         <div className="container">
           <div className="video-icon center">
@@ -185,14 +185,14 @@ const page = () => {
       <section
         className="main-cta-banner-2 section-padding bg-cover"
         style={{
-          backgroundImage: 'url("assets/img/banner/main-cta-bg-2.jpg")',
+          backgroundImage: 'url("/assets/img/banner/main-cta-bg-2.jpg")',
         }}
       >
         <div className="tomato-shape-left float-bob-y">
-          <img src="assets/img/tomato.png" alt="shape-img" />
+          <img src="/assets/img/tomato.png" alt="shape-img" />
         </div>
         <div className="chili-shape-right float-bob-y">
-          <img src="assets/img/chilli.png" alt="shape-img" />
+          <img src="/assets/img/chilli.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="main-cta-banner-wrapper-2 d-flex align-items-center justify-content-between">
@@ -218,7 +218,7 @@ const page = () => {
               </span>
             </Link>
             <div className="delivery-man">
-              <img src="assets/img/delivery-man-2.png" alt="img" />
+              <img src="/assets/img/delivery-man-2.png" alt="img" />
             </div>
           </div>
         </div>
@@ -250,10 +250,10 @@ const page = () => {
       {/* News Section Start */}
       <section className="news-section fix section-padding">
         <div className="burger-shape">
-          <img src="assets/img/shape/burger-shape-3.png" alt="burger-shape" />
+          <img src="/assets/img/shape/burger-shape-3.png" alt="burger-shape" />
         </div>
         <div className="fry-shape">
-          <img src="assets/img/shape/fry-shape-2.png" alt="burger-shape" />
+          <img src="/assets/img/shape/fry-shape-2.png" alt="burger-shape" />
         </div>
         <div className="container">
           <div className="section-title text-center">
@@ -270,7 +270,7 @@ const page = () => {
               <div className="single-news-items">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/01.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/news/01.jpg")' }}
                 >
                   <div className="post-cat">
                     <Link href="/news-details" className="cat-name">
@@ -308,7 +308,7 @@ const page = () => {
               <div className="single-news-items">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/02.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/news/02.jpg")' }}
                 >
                   <div className="post-cat">
                     <Link href="/news-details" className="cat-name">
@@ -346,7 +346,7 @@ const page = () => {
               <div className="single-news-items">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/03.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/news/03.jpg")' }}
                 >
                   <div className="post-cat">
                     <Link href="/news-details" className="cat-name">

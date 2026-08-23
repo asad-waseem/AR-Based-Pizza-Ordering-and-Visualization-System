@@ -26,7 +26,7 @@ const NextSaleBanner = () => {
                   <div
                     className="today-best-sale-image bg-cover"
                     style={{
-                      backgroundImage: 'url("assets/img/banner/best-sale.jpg")',
+                      backgroundImage: 'url("/assets/img/banner/best-sale.jpg")',
                     }}
                   />
                 </SwiperSlide>
@@ -35,7 +35,7 @@ const NextSaleBanner = () => {
                     className="today-best-sale-image bg-cover"
                     style={{
                       backgroundImage:
-                        'url("assets/img/banner/best-sale-2.jpg")',
+                        'url("/assets/img/banner/best-sale-2.jpg")',
                     }}
                   />
                 </SwiperSlide>
@@ -44,7 +44,7 @@ const NextSaleBanner = () => {
                     className="today-best-sale-image bg-cover"
                     style={{
                       backgroundImage:
-                        'url("assets/img/banner/best-sale-3.jpg")',
+                        'url("/assets/img/banner/best-sale-3.jpg")',
                     }}
                   />
                 </SwiperSlide>
@@ -54,14 +54,14 @@ const NextSaleBanner = () => {
           <div className="col-xl-4 col-lg-5">
             <div
               className="best-sale-content bg-cover"
-              style={{ backgroundImage: 'url("assets/img/shape.png")' }}
+              style={{ backgroundImage: 'url("/assets/img/shape.png")' }}
             >
               <div className="burger-shape">
-                <img src="assets/img/shape/fry-shape-4.png" alt="shape-img" />
+                <img src="/assets/img/shape/fry-shape-4.png" alt="shape-img" />
               </div>
               <div className="fry-shape">
                 <img
-                  src="assets/img/shape/burger-shape-4.png"
+                  src="/assets/img/shape/burger-shape-4.png"
                   alt="shape-img"
                 />
               </div>
@@ -113,7 +113,7 @@ export const NextSaleBanner2 = () => {
         <div
           className="today-best-sale-image bg-cover"
           style={{
-            backgroundImage: 'url("assets/img/banner/best-sale-4.jpg")',
+            backgroundImage: 'url("/assets/img/banner/best-sale-4.jpg")',
           }}
         />
       </SwiperSlide>
@@ -121,7 +121,7 @@ export const NextSaleBanner2 = () => {
         <div
           className="today-best-sale-image bg-cover"
           style={{
-            backgroundImage: 'url("assets/img/banner/best-sale-4.jpg")',
+            backgroundImage: 'url("/assets/img/banner/best-sale-4.jpg")',
           }}
         />
       </SwiperSlide>
@@ -129,7 +129,7 @@ export const NextSaleBanner2 = () => {
         <div
           className="today-best-sale-image bg-cover"
           style={{
-            backgroundImage: 'url("assets/img/banner/best-sale-4.jpg")',
+            backgroundImage: 'url("/assets/img/banner/best-sale-4.jpg")',
           }}
         />
       </SwiperSlide>

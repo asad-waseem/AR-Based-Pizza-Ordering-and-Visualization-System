@@ -16,7 +16,7 @@ const page = () => {
               <div className="testimonial-card-items">
                 <div
                   className="testimonial-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/client/08.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/client/08.jpg")' }}
                 />
                 <div className="testimonial-content">
                   <p>
@@ -36,7 +36,7 @@ const page = () => {
               <div className="testimonial-card-items">
                 <div
                   className="testimonial-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/client/09.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/client/09.jpg")' }}
                 />
                 <div className="testimonial-content">
                   <p>
@@ -56,7 +56,7 @@ const page = () => {
               <div className="testimonial-card-items">
                 <div
                   className="testimonial-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/client/10.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/client/10.jpg")' }}
                 />
                 <div className="testimonial-content">
                   <p>
@@ -76,7 +76,7 @@ const page = () => {
               <div className="testimonial-card-items">
                 <div
                   className="testimonial-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/client/11.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/client/11.jpg")' }}
                 />
                 <div className="testimonial-content">
                   <p>
@@ -96,7 +96,7 @@ const page = () => {
               <div className="testimonial-card-items">
                 <div
                   className="testimonial-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/client/12.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/client/12.jpg")' }}
                 />
                 <div className="testimonial-content">
                   <p>
@@ -116,7 +116,7 @@ const page = () => {
               <div className="testimonial-card-items">
                 <div
                   className="testimonial-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/client/13.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/client/13.jpg")' }}
                 />
                 <div className="testimonial-content">
                   <p>

@@ -19,7 +19,7 @@ const page = () => {
                   className="booking-contact mb-0 style-2 bg-cover"
                   style={{
                     backgroundImage:
-                      'url("assets/img/shape/booking-shape.png")',
+                      'url("/assets/img/shape/booking-shape.png")',
                   }}
                 >
                   <h3 className="text-center mb-4 text-white wow fadeInUp">

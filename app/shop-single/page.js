@@ -24,11 +24,11 @@ const page = () => {
                       <Tab.Pane className="tab-pane fade" eventKey="nav-home">
                         <div className="product-image">
                           <img
-                            src="assets/img/shop-food/details-1.png"
+                            src="/assets/img/shop-food/details-1.png"
                             alt="img"
                           />
                           <a
-                            href="assets/img/shop-food/details-1.png"
+                            href="/assets/img/shop-food/details-1.png"
                             className="icon img-popup"
                           >
                             <i className="far fa-search" />
@@ -41,11 +41,11 @@ const page = () => {
                       >
                         <div className="product-image">
                           <img
-                            src="assets/img/shop-food/details-1.png"
+                            src="/assets/img/shop-food/details-1.png"
                             alt="img"
                           />
                           <a
-                            href="assets/img/shop-food/details-1.png"
+                            href="/assets/img/shop-food/details-1.png"
                             className="icon img-popup"
                           >
                             <i className="far fa-search" />
@@ -58,11 +58,11 @@ const page = () => {
                       >
                         <div className="product-image">
                           <img
-                            src="assets/img/shop-food/details-1.png"
+                            src="/assets/img/shop-food/details-1.png"
                             alt="img"
                           />
                           <a
-                            href="assets/img/shop-food/details-1.png"
+                            href="/assets/img/shop-food/details-1.png"
                             className="icon img-popup"
                           >
                             <i className="far fa-search" />
@@ -75,11 +75,11 @@ const page = () => {
                       >
                         <div className="product-image">
                           <img
-                            src="assets/img/shop-food/details-1.png"
+                            src="/assets/img/shop-food/details-1.png"
                             alt="img"
                           />
                           <a
-                            href="assets/img/shop-food/details-1.png"
+                            href="/assets/img/shop-food/details-1.png"
                             className="icon img-popup"
                           >
                             <i className="far fa-search" />
@@ -100,7 +100,7 @@ const page = () => {
                         eventKey="nav-home"
                       >
                         <img
-                          src="assets/img/shop-food/s1.png"
+                          src="/assets/img/shop-food/s1.png"
                           alt="img"
                           className="image-tab"
                         />
@@ -112,7 +112,7 @@ const page = () => {
                         eventKey="nav-profile"
                       >
                         <img
-                          src="assets/img/shop-food/s2.png"
+                          src="/assets/img/shop-food/s2.png"
                           alt="img"
                           className="image-tab"
                         />
@@ -124,7 +124,7 @@ const page = () => {
                         eventKey="nav-contact"
                       >
                         <img
-                          src="assets/img/shop-food/s3.png"
+                          src="/assets/img/shop-food/s3.png"
                           alt="img"
                           className="image-tab"
                         />
@@ -136,7 +136,7 @@ const page = () => {
                         eventKey="nav-contact2"
                       >
                         <img
-                          src="assets/img/shop-food/s4.png"
+                          src="/assets/img/shop-food/s4.png"
                           alt="img"
                           className="image-tab"
                         />
@@ -356,7 +356,7 @@ const page = () => {
                     <div className="admin-items d-flex flex-wrap flex-md-nowrap align-items-center pb-4">
                       <div className="admin-img pb-4 pb-md-0 me-4">
                         <img
-                          src="assets/img/shop-food/review/01.jpg"
+                          src="/assets/img/shop-food/review/01.jpg"
                           alt="image"
                         />
                       </div>
@@ -470,7 +470,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/beef-ruti.png" alt="product-img" />
+                  <img src="/assets/img/food/beef-ruti.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -508,7 +508,7 @@ const page = () => {
                   </a>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/burger-2.png" alt="product-img" />
+                  <img src="/assets/img/food/burger-2.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -546,7 +546,7 @@ const page = () => {
                   </a>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/pasta-2.png" alt="product-img" />
+                  <img src="/assets/img/food/pasta-2.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -584,7 +584,7 @@ const page = () => {
                   </a>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/pizza-3.png" alt="product-img" />
+                  <img src="/assets/img/food/pizza-3.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">

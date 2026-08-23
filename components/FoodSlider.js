@@ -7,10 +7,10 @@ const FoodSlider = () => {
   return (
     <section className="food-category-section fix section-padding section-bg">
       <div className="tomato-shape">
-        <img src="assets/img/shape/tomato-shape.png" alt="shape-img" />
+        <img src="/assets/img/shape/tomato-shape.png" alt="shape-img" />
       </div>
       <div className="burger-shape-2">
-        <img src="assets/img/shape/burger-shape-2.png" alt="shape-img" />
+        <img src="/assets/img/shape/burger-shape-2.png" alt="shape-img" />
       </div>
       <div className="container">
         <div className="row">
@@ -46,28 +46,28 @@ const FoodSlider = () => {
                 className="catagory-product-card bg-cover"
                 style={{
                   backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                    'url("/assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
                   <Link href="/shop">
-                    <img src="assets/img/food/pizza.png" alt="product-img" />
+                    <img src="/assets/img/food/pizza.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
-                        src="assets/img/shape/decor-leaf.svg"
+                        src="/assets/img/shape/decor-leaf.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="decor-leaf-2">
                       <img
-                        src="assets/img/shape/decor-leaf-2.svg"
+                        src="/assets/img/shape/decor-leaf-2.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="burger-shape">
                       <img
-                        src="assets/img/shape/burger-shape.png"
+                        src="/assets/img/shape/burger-shape.png"
                         alt="shape-img"
                       />
                     </div>
@@ -76,7 +76,7 @@ const FoodSlider = () => {
                 <div className="catagory-product-content text-center">
                   <div className="catagory-product-icon">
                     <img
-                      src="assets/img/shape/food-shape.svg"
+                      src="/assets/img/shape/food-shape.svg"
                       alt="shape-text"
                     />
                   </div>
@@ -92,28 +92,28 @@ const FoodSlider = () => {
                 className="catagory-product-card bg-cover"
                 style={{
                   backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                    'url("/assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
                   <Link href="/shop">
-                    <img src="assets/img/food/pasta.png" alt="product-img" />
+                    <img src="/assets/img/food/pasta.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
-                        src="assets/img/shape/decor-leaf.svg"
+                        src="/assets/img/shape/decor-leaf.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="decor-leaf-2">
                       <img
-                        src="assets/img/shape/decor-leaf-2.svg"
+                        src="/assets/img/shape/decor-leaf-2.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="burger-shape">
                       <img
-                        src="assets/img/shape/burger-shape.png"
+                        src="/assets/img/shape/burger-shape.png"
                         alt="shape-img"
                       />
                     </div>
@@ -122,7 +122,7 @@ const FoodSlider = () => {
                 <div className="catagory-product-content text-center">
                   <div className="catagory-product-icon">
                     <img
-                      src="assets/img/shape/food-shape.svg"
+                      src="/assets/img/shape/food-shape.svg"
                       alt="shape-text"
                     />
                   </div>
@@ -138,28 +138,28 @@ const FoodSlider = () => {
                 className="catagory-product-card bg-cover"
                 style={{
                   backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                    'url("/assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
                   <Link href="/shop">
-                    <img src="assets/img/food/burger.png" alt="product-img" />
+                    <img src="/assets/img/food/burger.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
-                        src="assets/img/shape/decor-leaf.svg"
+                        src="/assets/img/shape/decor-leaf.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="decor-leaf-2">
                       <img
-                        src="assets/img/shape/decor-leaf-2.svg"
+                        src="/assets/img/shape/decor-leaf-2.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="burger-shape">
                       <img
-                        src="assets/img/shape/burger-shape.png"
+                        src="/assets/img/shape/burger-shape.png"
                         alt="shape-img"
                       />
                     </div>
@@ -168,7 +168,7 @@ const FoodSlider = () => {
                 <div className="catagory-product-content text-center">
                   <div className="catagory-product-icon">
                     <img
-                      src="assets/img/shape/food-shape.svg"
+                      src="/assets/img/shape/food-shape.svg"
                       alt="shape-text"
                     />
                   </div>
@@ -184,31 +184,31 @@ const FoodSlider = () => {
                 className="catagory-product-card bg-cover"
                 style={{
                   backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                    'url("/assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
                   <Link href="/shop">
                     <img
-                      src="assets/img/food/french-fry.png"
+                      src="/assets/img/food/french-fry.png"
                       alt="product-img"
                     />
                     <div className="decor-leaf">
                       <img
-                        src="assets/img/shape/decor-leaf.svg"
+                        src="/assets/img/shape/decor-leaf.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="decor-leaf-2">
                       <img
-                        src="assets/img/shape/decor-leaf-2.svg"
+                        src="/assets/img/shape/decor-leaf-2.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="burger-shape">
                       <img
-                        src="assets/img/shape/burger-shape.png"
+                        src="/assets/img/shape/burger-shape.png"
                         alt="shape-img"
                       />
                     </div>
@@ -217,7 +217,7 @@ const FoodSlider = () => {
                 <div className="catagory-product-content text-center">
                   <div className="catagory-product-icon">
                     <img
-                      src="assets/img/shape/food-shape.svg"
+                      src="/assets/img/shape/food-shape.svg"
                       alt="shape-text"
                     />
                   </div>
@@ -233,28 +233,28 @@ const FoodSlider = () => {
                 className="catagory-product-card bg-cover"
                 style={{
                   backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                    'url("/assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
                   <Link href="/shop">
-                    <img src="assets/img/food/pizza.png" alt="product-img" />
+                    <img src="/assets/img/food/pizza.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
-                        src="assets/img/shape/decor-leaf.svg"
+                        src="/assets/img/shape/decor-leaf.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="decor-leaf-2">
                       <img
-                        src="assets/img/shape/decor-leaf-2.svg"
+                        src="/assets/img/shape/decor-leaf-2.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="burger-shape">
                       <img
-                        src="assets/img/shape/burger-shape.png"
+                        src="/assets/img/shape/burger-shape.png"
                         alt="shape-img"
                       />
                     </div>
@@ -263,7 +263,7 @@ const FoodSlider = () => {
                 <div className="catagory-product-content text-center">
                   <div className="catagory-product-icon">
                     <img
-                      src="assets/img/shape/food-shape.svg"
+                      src="/assets/img/shape/food-shape.svg"
                       alt="shape-text"
                     />
                   </div>
@@ -279,28 +279,28 @@ const FoodSlider = () => {
                 className="catagory-product-card bg-cover"
                 style={{
                   backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                    'url("/assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
                   <Link href="/shop">
-                    <img src="assets/img/food/pasta.png" alt="product-img" />
+                    <img src="/assets/img/food/pasta.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
-                        src="assets/img/shape/decor-leaf.svg"
+                        src="/assets/img/shape/decor-leaf.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="decor-leaf-2">
                       <img
-                        src="assets/img/shape/decor-leaf-2.svg"
+                        src="/assets/img/shape/decor-leaf-2.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="burger-shape">
                       <img
-                        src="assets/img/shape/burger-shape.png"
+                        src="/assets/img/shape/burger-shape.png"
                         alt="shape-img"
                       />
                     </div>
@@ -309,7 +309,7 @@ const FoodSlider = () => {
                 <div className="catagory-product-content text-center">
                   <div className="catagory-product-icon">
                     <img
-                      src="assets/img/shape/food-shape.svg"
+                      src="/assets/img/shape/food-shape.svg"
                       alt="shape-text"
                     />
                   </div>
@@ -325,28 +325,28 @@ const FoodSlider = () => {
                 className="catagory-product-card bg-cover"
                 style={{
                   backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                    'url("/assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
                   <Link href="/shop">
-                    <img src="assets/img/food/burger.png" alt="product-img" />
+                    <img src="/assets/img/food/burger.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
-                        src="assets/img/shape/decor-leaf.svg"
+                        src="/assets/img/shape/decor-leaf.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="decor-leaf-2">
                       <img
-                        src="assets/img/shape/decor-leaf-2.svg"
+                        src="/assets/img/shape/decor-leaf-2.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="burger-shape">
                       <img
-                        src="assets/img/shape/burger-shape.png"
+                        src="/assets/img/shape/burger-shape.png"
                         alt="shape-img"
                       />
                     </div>
@@ -355,7 +355,7 @@ const FoodSlider = () => {
                 <div className="catagory-product-content text-center">
                   <div className="catagory-product-icon">
                     <img
-                      src="assets/img/shape/food-shape.svg"
+                      src="/assets/img/shape/food-shape.svg"
                       alt="shape-text"
                     />
                   </div>
@@ -371,31 +371,31 @@ const FoodSlider = () => {
                 className="catagory-product-card bg-cover"
                 style={{
                   backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                    'url("/assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
                   <Link href="/shop">
                     <img
-                      src="assets/img/food/french-fry.png"
+                      src="/assets/img/food/french-fry.png"
                       alt="product-img"
                     />
                     <div className="decor-leaf">
                       <img
-                        src="assets/img/shape/decor-leaf.svg"
+                        src="/assets/img/shape/decor-leaf.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="decor-leaf-2">
                       <img
-                        src="assets/img/shape/decor-leaf-2.svg"
+                        src="/assets/img/shape/decor-leaf-2.svg"
                         alt="shape-img"
                       />
                     </div>
                     <div className="burger-shape">
                       <img
-                        src="assets/img/shape/burger-shape.png"
+                        src="/assets/img/shape/burger-shape.png"
                         alt="shape-img"
                       />
                     </div>
@@ -404,7 +404,7 @@ const FoodSlider = () => {
                 <div className="catagory-product-content text-center">
                   <div className="catagory-product-icon">
                     <img
-                      src="assets/img/shape/food-shape.svg"
+                      src="/assets/img/shape/food-shape.svg"
                       alt="shape-text"
                     />
                   </div>

@@ -20,7 +20,7 @@ const page = () => {
                 <div
                   className="team-image bg-cover"
                   style={{
-                    backgroundImage: 'url("assets/img/team/details.jpg")',
+                    backgroundImage: 'url("/assets/img/team/details.jpg")',
                   }}
                 />
               </div>
@@ -88,7 +88,7 @@ const page = () => {
       <section
         className="team-skill fix section-padding bg-cover"
         style={{
-          backgroundImage: 'url("assets/img/banner/main-cta-bg-2.jpg")',
+          backgroundImage: 'url("/assets/img/banner/main-cta-bg-2.jpg")',
         }}
       >
         <div className="container">
@@ -280,18 +280,18 @@ const page = () => {
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">dishes</span>
                 <span className="text-slider">
-                  <img src="assets/img/star-2.svg" alt="icon-img" />
+                  <img src="/assets/img/star-2.svg" alt="icon-img" />
                 </span>{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">delicious</span>
                 <span className="text-slider text-color">food</span>{" "}
-                <img src="assets/img/star-2.svg" alt="icon-img" />{" "}
+                <img src="/assets/img/star-2.svg" alt="icon-img" />{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">populer</span>
                 <span className="text-slider text-color">dishes</span>{" "}
                 <span className="text-slider" />
                 <span className="text-slider">
-                  <img src="assets/img/star-2.svg" alt="icon-img" />
+                  <img src="/assets/img/star-2.svg" alt="icon-img" />
                 </span>{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">delicious</span>
@@ -299,18 +299,18 @@ const page = () => {
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">dishes</span>
                 <span className="text-slider">
-                  <img src="assets/img/star-2.svg" alt="icon-img" />
+                  <img src="/assets/img/star-2.svg" alt="icon-img" />
                 </span>{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">delicious</span>
                 <span className="text-slider text-color">food</span>{" "}
-                <img src="assets/img/star-2.svg" alt="icon-img" />{" "}
+                <img src="/assets/img/star-2.svg" alt="icon-img" />{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">populer</span>
                 <span className="text-slider text-color">dishes</span>{" "}
                 <span className="text-slider" />
                 <span className="text-slider">
-                  <img src="assets/img/star-2.svg" alt="icon-img" />
+                  <img src="/assets/img/star-2.svg" alt="icon-img" />
                 </span>{" "}
                 <span className="text-slider" />{" "}
                 <span className="text-slider text-color">delicious</span>
@@ -330,7 +330,7 @@ const page = () => {
               <div
                 className="pasta-banner-items bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/pizza-bg-2.png")',
+                  backgroundImage: 'url("/assets/img/banner/pizza-bg-2.png")',
                 }}
               >
                 <div className="pasta-content">
@@ -344,7 +344,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="pasta-food">
-                  <img src="assets/img/food/pasta-3.png" alt="food-img" />
+                  <img src="/assets/img/food/pasta-3.png" alt="food-img" />
                 </div>
               </div>
             </div>
@@ -355,12 +355,12 @@ const page = () => {
               <div
                 className="single-offer-items bg-cover style-3"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/banner-bg.png")',
+                  backgroundImage: 'url("/assets/img/banner/banner-bg.png")',
                 }}
               >
                 <div className="offer-image-2">
                   <img
-                    src="assets/img/offer/50percent-off-2.png"
+                    src="/assets/img/offer/50percent-off-2.png"
                     alt="offer-img"
                   />
                 </div>
@@ -378,7 +378,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="noodles-image">
-                  <img src="assets/img/food/noodles.png" alt="food-img" />
+                  <img src="/assets/img/food/noodles.png" alt="food-img" />
                 </div>
               </div>
             </div>
@@ -389,12 +389,12 @@ const page = () => {
               <div
                 className="single-offer-items bg-cover style-3"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/banner-bg-2.png")',
+                  backgroundImage: 'url("/assets/img/banner/banner-bg-2.png")',
                 }}
               >
                 <div className="offer-shape-3">
                   <img
-                    src="assets/img/offer/50percent-off-4.png"
+                    src="/assets/img/offer/50percent-off-4.png"
                     alt="shape-img"
                   />
                 </div>
@@ -409,7 +409,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="chicken-image">
-                  <img src="assets/img/food/chicken.png" alt="food-img" />
+                  <img src="/assets/img/food/chicken.png" alt="food-img" />
                 </div>
               </div>
             </div>
@@ -419,7 +419,7 @@ const page = () => {
       {/* Booking Section Start */}
       <section
         className="booking-section mt-0 fix section-padding bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/main-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/banner/main-bg.jpg")' }}
       >
         <div className="container">
           <div className="booking-wrapper">

@@ -2392,7 +2392,7 @@ input.main-search-input::placeholder {
   content: "";
   width: 83px;
   height: 75px;
-  background-image: url("../../assets/img/icon/icon.png");
+  background-image: url("/assets/img/icon/icon.png");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 9;
@@ -2857,7 +2857,7 @@ input.main-search-input::placeholder {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-image: url("../../assets/img/shape/catagory-card-shape.jpg");
+  background-image: url("/assets/img/shape/catagory-card-shape.jpg");
   border-radius: 14px;
   z-index: 9;
 }
@@ -3153,7 +3153,7 @@ input.main-search-input::placeholder {
 .catagory-product-card-2:hover::before {
   height: 100%;
   background-color: var(--theme3);
-  background-image: url(../../assets/img/shape/catagory-card-shape.jpg);
+  background-image: url(/assets/img/shape/catagory-card-shape.jpg);
 }
 .catagory-product-card-2:hover .catagory-product-content .catagory-button {
   opacity: 1;
@@ -3170,7 +3170,7 @@ input.main-search-input::placeholder {
 .catagory-product-card-2.active::before {
   height: 100%;
   background-color: var(--theme3);
-  background-image: url(../../assets/img/shape/catagory-card-shape.jpg);
+  background-image: url(/assets/img/shape/catagory-card-shape.jpg);
 }
 .catagory-product-card-2.active .icon {
   background-color: var(--white);
@@ -3615,7 +3615,7 @@ input.main-search-input::placeholder {
   width: 100%;
   height: 100%;
   background-position: center;
-  background-image: url(../../assets/img/about/food-shape.png);
+  background-image: url(/assets/img/about/food-shape.png);
 }
 .about-wrapper-2 .pizza-image .quate-content h3 {
   font-size: 28px;
@@ -3873,7 +3873,7 @@ input.main-search-input::placeholder {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../../assets/img/shape/overlay-shape.png);
+    background-image: url(/assets/img/shape/overlay-shape.png);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
@@ -3916,7 +3916,7 @@ input.main-search-input::placeholder {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../../assets/img/shape/overlay-shape.png);
+  background-image: url(/assets/img/shape/overlay-shape.png);
 }
 .fooder-menu-wrapper .food-menu-items:hover .food-menu-content h4, .fooder-menu-wrapper .food-menu-items:hover .food-menu-content p {
   color: var(--white);
@@ -3940,7 +3940,7 @@ input.main-search-input::placeholder {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../../assets/img/shape/overlay-shape.png);
+  background-image: url(/assets/img/shape/overlay-shape.png);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -4921,7 +4921,7 @@ input.main-search-input::placeholder {
   width: 80%;
   height: 1px;
   content: "";
-  background-image: url(../../assets/img/border.png);
+  background-image: url(/assets/img/border.png);
 }
 @media (max-width: 1399px) {
   .food-processing-wrapper::before {
@@ -7988,7 +7988,7 @@ input.main-search-input::placeholder {
   height: 100%;
   content: "";
   background-repeat: no-repeat;
-  background-image: url(../../assets/img/arrow.png);
+  background-image: url(/assets/img/arrow.png);
   -webkit-animation: 4s linear 0s infinite normal none running rounded-2;
           animation: 4s linear 0s infinite normal none running rounded-2;
 }
@@ -8318,7 +8318,7 @@ input.main-search-input::placeholder {
   -webkit-box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.04);
           box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.04);
   z-index: -1;
-  background-image: url(../../assets/img/client/bg-shape.png);
+  background-image: url(/assets/img/client/bg-shape.png);
 }
 
 .testimonial-wrapper-2 {
@@ -10042,7 +10042,7 @@ p.sticky-label {
   width: 100%;
   height: 100%;
   content: "";
-  background: url("../../assets/img/shape/catagory-card-shape.jpg");
+  background: url("/assets/img/shape/catagory-card-shape.jpg");
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;

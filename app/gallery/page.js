@@ -12,9 +12,9 @@ const page = () => {
             <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
               <div
                 className="galler-image-2 bg-cover"
-                style={{ backgroundImage: 'url("assets/img/gallery/04.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/gallery/04.jpg")' }}
               >
-                <a href="assets/img/gallery/04.jpg" className="icon img-popup">
+                <a href="/assets/img/gallery/04.jpg" className="icon img-popup">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -22,9 +22,9 @@ const page = () => {
             <div className="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
               <div
                 className="galler-image-2 bg-cover"
-                style={{ backgroundImage: 'url("assets/img/gallery/05.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/gallery/05.jpg")' }}
               >
-                <a href="assets/img/gallery/05.jpg" className="icon img-popup">
+                <a href="/assets/img/gallery/05.jpg" className="icon img-popup">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -32,9 +32,9 @@ const page = () => {
             <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
               <div
                 className="galler-image-2 bg-cover"
-                style={{ backgroundImage: 'url("assets/img/gallery/06.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/gallery/06.jpg")' }}
               >
-                <a href="assets/img/gallery/06.jpg" className="icon img-popup">
+                <a href="/assets/img/gallery/06.jpg" className="icon img-popup">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -42,9 +42,9 @@ const page = () => {
             <div className="col-lg-8 wow fadeInUp" data-wow-delay=".5s">
               <div
                 className="galler-image-2 bg-cover"
-                style={{ backgroundImage: 'url("assets/img/gallery/07.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/gallery/07.jpg")' }}
               >
-                <a href="assets/img/gallery/07.jpg" className="icon img-popup">
+                <a href="/assets/img/gallery/07.jpg" className="icon img-popup">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -52,9 +52,9 @@ const page = () => {
             <div className="col-lg-9 wow fadeInUp" data-wow-delay=".3s">
               <div
                 className="galler-image-2 bg-cover"
-                style={{ backgroundImage: 'url("assets/img/gallery/08.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/gallery/08.jpg")' }}
               >
-                <a href="assets/img/gallery/08.jpg" className="icon img-popup">
+                <a href="/assets/img/gallery/08.jpg" className="icon img-popup">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -62,9 +62,9 @@ const page = () => {
             <div className="col-lg-3 wow fadeInUp" data-wow-delay=".5s">
               <div
                 className="galler-image-2 bg-cover"
-                style={{ backgroundImage: 'url("assets/img/gallery/09.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/gallery/09.jpg")' }}
               >
-                <a href="assets/img/gallery/09.jpg" className="icon img-popup">
+                <a href="/assets/img/gallery/09.jpg" className="icon img-popup">
                   <i className="fal fa-plus" />
                 </a>
               </div>

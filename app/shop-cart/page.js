@@ -11,21 +11,21 @@ const page = () => {
       name: "Deluxe Burger",
       price: 12.99,
       quantity: 2,
-      image: "assets/img/shop-food/s1.png",
+      image: "/assets/img/shop-food/s1.png",
     },
     {
       id: 2,
       name: "Margherita Pizza",
       price: 14.99,
       quantity: 1,
-      image: "assets/img/shop-food/s2.png",
+      image: "/assets/img/shop-food/s2.png",
     },
     {
       id: 3,
       name: "Caesar Salad",
       price: 8.99,
       quantity: 1,
-      image: "assets/img/shop-food/s3.png",
+      image: "/assets/img/shop-food/s3.png",
     },
   ]);
 

@@ -13,9 +13,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/01.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/01.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/01.jpg"
+                  href="/assets/img/instagram-banner/01.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -26,9 +26,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/02.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/02.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/02.jpg"
+                  href="/assets/img/instagram-banner/02.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -39,9 +39,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/03.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/03.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/03.jpg"
+                  href="/assets/img/instagram-banner/03.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -52,9 +52,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/04.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/04.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/04.jpg"
+                  href="/assets/img/instagram-banner/04.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -65,9 +65,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/05.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/05.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/05.jpg"
+                  href="/assets/img/instagram-banner/05.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -78,9 +78,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/01.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/01.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/01.jpg"
+                  href="/assets/img/instagram-banner/01.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -91,9 +91,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/02.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/02.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/02.jpg"
+                  href="/assets/img/instagram-banner/02.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -104,9 +104,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/03.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/03.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/03.jpg"
+                  href="/assets/img/instagram-banner/03.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -117,9 +117,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/04.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/04.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/04.jpg"
+                  href="/assets/img/instagram-banner/04.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />
@@ -130,9 +130,9 @@ const InstagramBannerSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
-                <img src="assets/img/instagram-banner/05.jpg" alt="food-img" />
+                <img src="/assets/img/instagram-banner/05.jpg" alt="food-img" />
                 <a
-                  href="assets/img/instagram-banner/05.jpg"
+                  href="/assets/img/instagram-banner/05.jpg"
                   className="icon img-popup"
                 >
                   <i className="far fa-search" />

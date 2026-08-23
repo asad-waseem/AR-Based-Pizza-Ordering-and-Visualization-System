@@ -22,7 +22,7 @@ const page = () => {
                     </div>
                     <div className="catagory-product-image">
                       <img
-                        src="assets/img/food/pasta-2.png"
+                        src="/assets/img/food/pasta-2.png"
                         alt="product-img"
                       />
                     </div>
@@ -60,7 +60,7 @@ const page = () => {
                     </div>
                     <div className="catagory-product-image">
                       <img
-                        src="assets/img/food/burger-2.png"
+                        src="/assets/img/food/burger-2.png"
                         alt="product-img"
                       />
                     </div>
@@ -98,7 +98,7 @@ const page = () => {
                     </div>
                     <div className="catagory-product-image">
                       <img
-                        src="assets/img/food/pizza-3.png"
+                        src="/assets/img/food/pizza-3.png"
                         alt="product-img"
                       />
                     </div>
@@ -135,7 +135,7 @@ const page = () => {
                       </Link>
                     </div>
                     <div className="catagory-product-image">
-                      <img src="assets/img/food/ruti.png" alt="product-img" />
+                      <img src="/assets/img/food/ruti.png" alt="product-img" />
                     </div>
                     <div className="catagory-product-content">
                       <div className="catagory-button">
@@ -171,7 +171,7 @@ const page = () => {
                     </div>
                     <div className="catagory-product-image">
                       <img
-                        src="assets/img/food/grilled-2.png"
+                        src="/assets/img/food/grilled-2.png"
                         alt="product-img"
                       />
                     </div>
@@ -209,7 +209,7 @@ const page = () => {
                     </div>
                     <div className="catagory-product-image">
                       <img
-                        src="assets/img/food/main-food-3.png"
+                        src="/assets/img/food/main-food-3.png"
                         alt="product-img"
                       />
                     </div>
@@ -247,7 +247,7 @@ const page = () => {
                     </div>
                     <div className="catagory-product-image">
                       <img
-                        src="assets/img/food/french-fry-3.png"
+                        src="/assets/img/food/french-fry-3.png"
                         alt="product-img"
                       />
                     </div>
@@ -285,7 +285,7 @@ const page = () => {
                     </div>
                     <div className="catagory-product-image">
                       <img
-                        src="assets/img/food/fried-chicken-2.png"
+                        src="/assets/img/food/fried-chicken-2.png"
                         alt="product-img"
                       />
                     </div>
@@ -323,7 +323,7 @@ const page = () => {
                     </div>
                     <div className="catagory-product-image">
                       <img
-                        src="assets/img/food/french-fry-4.png"
+                        src="/assets/img/food/french-fry-4.png"
                         alt="product-img"
                       />
                     </div>

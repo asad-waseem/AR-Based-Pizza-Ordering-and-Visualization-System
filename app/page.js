@@ -17,10 +17,10 @@ const page = () => {
       {/* Food Banner Section Start */}
       <section className="food-banner-section section-padding fix section-bg pt-0">
         <div className="chili-shape">
-          <img src="assets/img/shape/chili-shape.png" alt="shape-img" />
+          <img src="/assets/img/shape/chili-shape.png" alt="shape-img" />
         </div>
         <div className="fry-shape">
-          <img src="assets/img/shape/fry-shape.png" alt="shape-img" />
+          <img src="/assets/img/shape/fry-shape.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="row">
@@ -28,7 +28,7 @@ const page = () => {
               <div
                 className="single-offer-items bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/offer-bg.png")',
+                  backgroundImage: 'url("/assets/img/banner/offer-bg.png")',
                 }}
               >
                 <div className="offer-content">
@@ -40,15 +40,15 @@ const page = () => {
                 </div>
                 <div className="offer-image">
                   <img
-                    src="assets/img/offer/50percent-off.png"
+                    src="/assets/img/offer/50percent-off.png"
                     alt="offer-img"
                   />
                 </div>
                 <div className="burger-text">
-                  <img src="assets/img/shape/burger-text.png" alt="shape-img" />
+                  <img src="/assets/img/shape/burger-text.png" alt="shape-img" />
                 </div>
                 <div className="main-food">
-                  <img src="assets/img/food/main-food.png" alt="food-img" />
+                  <img src="/assets/img/food/main-food.png" alt="food-img" />
                 </div>
               </div>
             </div>
@@ -59,20 +59,20 @@ const page = () => {
               <div
                 className="pizza-banner-items bg-cover"
                 style={{
-                  backgroundImage: "url(assets/img/banner/pizza-bg.png)",
+                  backgroundImage: "url(/assets/img/banner/pizza-bg.png)",
                 }}
               >
                 <div className="pizza-text">
-                  <img src="assets/img/shape/pizza-text.png" alt="shape-img" />
+                  <img src="/assets/img/shape/pizza-text.png" alt="shape-img" />
                 </div>
                 <div className="pizza-text-2">
                   <img
-                    src="assets/img/shape/pizza-text-2.png"
+                    src="/assets/img/shape/pizza-text-2.png"
                     alt="shape-img"
                   />
                 </div>
                 <div className="pizza-image">
-                  <img src="assets/img/food/pizza-2.png" alt="pizza-img" />
+                  <img src="/assets/img/food/pizza-2.png" alt="pizza-img" />
                 </div>
               </div>
             </div>
@@ -95,22 +95,22 @@ const page = () => {
       {/* Grilled Banner Section Start */}
       <section
         className="grilled-banner fix section-padding bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/main-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/banner/main-bg.jpg")' }}
       >
         <div className="patato-shape">
-          <img src="assets/img/shape/patato-shape.png" alt="shape-img" />
+          <img src="/assets/img/shape/patato-shape.png" alt="shape-img" />
         </div>
         <div className="offer-shape float-bob-y">
-          <img src="assets/img/offer/50percent-off-2.png" alt="shape-img" />
+          <img src="/assets/img/offer/50percent-off-2.png" alt="shape-img" />
         </div>
         <div className="text-shape">
-          <img src="assets/img/shape/pizza-text-2.png" alt="shape-img" />
+          <img src="/assets/img/shape/pizza-text-2.png" alt="shape-img" />
         </div>
         <div className="spicy-shape">
-          <img src="assets/img/shape/spicy.png" alt="shape-img" />
+          <img src="/assets/img/shape/spicy.png" alt="shape-img" />
         </div>
         <div className="tomato-shape">
-          <img src="assets/img/shape/tomato-shape-2.png" alt="shape-img" />
+          <img src="/assets/img/shape/tomato-shape-2.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="grilled-wrapper">
@@ -147,7 +147,7 @@ const page = () => {
                 data-wow-delay=".4s"
               >
                 <div className="grilled-image">
-                  <img src="assets/img/food/grilled.png" alt="grilled-img" />
+                  <img src="/assets/img/food/grilled.png" alt="grilled-img" />
                 </div>
               </div>
             </div>
@@ -175,7 +175,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/beef-ruti.png" alt="product-img" />
+                  <img src="/assets/img/food/beef-ruti.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -213,7 +213,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/burger-2.png" alt="product-img" />
+                  <img src="/assets/img/food/burger-2.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -251,7 +251,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/pasta-2.png" alt="product-img" />
+                  <img src="/assets/img/food/pasta-2.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -289,7 +289,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/pizza-3.png" alt="product-img" />
+                  <img src="/assets/img/food/pizza-3.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -328,7 +328,7 @@ const page = () => {
                 </div>
                 <div className="catagory-product-image">
                   <img
-                    src="assets/img/food/main-food-2.png"
+                    src="/assets/img/food/main-food-2.png"
                     alt="product-img"
                   />
                 </div>
@@ -368,7 +368,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/ruti.png" alt="product-img" />
+                  <img src="/assets/img/food/ruti.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -406,7 +406,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/grilled-2.png" alt="product-img" />
+                  <img src="/assets/img/food/grilled-2.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
@@ -445,7 +445,7 @@ const page = () => {
                 </div>
                 <div className="catagory-product-image">
                   <img
-                    src="assets/img/food/delicious-burger.png"
+                    src="/assets/img/food/delicious-burger.png"
                     alt="product-img"
                   />
                 </div>
@@ -493,10 +493,10 @@ const page = () => {
       {/* Food Comboo Section Start */}
       <section
         className="food-comboo-section fix bg-cover section-padding"
-        style={{ backgroundImage: 'url("assets/img/bg-image/bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/bg-image/bg.jpg")' }}
       >
         <div className="drinks-shape">
-          <img src="assets/img/shape/drinks.png" alt="shape-img" />
+          <img src="/assets/img/shape/drinks.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="comboo-wrapper">
@@ -529,7 +529,7 @@ const page = () => {
                     >
                       <span className="food-comboo-list">
                         <span className="offer-image">
-                          <img src="assets/img/offer/chicken.png" alt="img" />
+                          <img src="/assets/img/offer/chicken.png" alt="img" />
                         </span>
                         <span className="comboo-title">
                           30% off 4pcs hot crispy &amp; 8 pcs wing
@@ -549,7 +549,7 @@ const page = () => {
                     >
                       <span className="food-comboo-list">
                         <span className="offer-image">
-                          <img src="assets/img/offer/pizza.png" alt="img" />
+                          <img src="/assets/img/offer/pizza.png" alt="img" />
                         </span>
                         <span className="comboo-title">
                           20% off tasty pizza with drink
@@ -569,7 +569,7 @@ const page = () => {
                     >
                       <span className="food-comboo-list">
                         <span className="offer-image">
-                          <img src="assets/img/offer/burger.png" alt="img" />
+                          <img src="/assets/img/offer/burger.png" alt="img" />
                         </span>
                         <span className="comboo-title">
                           2pcs humbergur with drinks &amp; sauce
@@ -591,30 +591,30 @@ const page = () => {
                       className="comboo-image bg-cover"
                       style={{
                         backgroundImage:
-                          'url("assets/img/banner/comboo-bg.jpg")',
+                          'url("/assets/img/banner/comboo-bg.jpg")',
                       }}
                     >
                       <div className="pizza-text">
                         <img
-                          src="assets/img/shape/combo-pizza-text.png"
+                          src="/assets/img/shape/combo-pizza-text.png"
                           alt="shape-img"
                         />
                       </div>
                       <div className="pizza-image">
                         <img
-                          src="assets/img/food/big-pizza.png"
+                          src="/assets/img/food/big-pizza.png"
                           alt="food-img"
                         />
                       </div>
                       <div className="offer-shape">
                         <img
-                          src="assets/img/offer/50percent-off-2.png"
+                          src="/assets/img/offer/50percent-off-2.png"
                           alt="shape-img"
                         />
                       </div>
                       <div className="vegetable-shape">
                         <img
-                          src="assets/img/shape/vegetable.png"
+                          src="/assets/img/shape/vegetable.png"
                           alt="shape-img"
                         />
                       </div>
@@ -630,30 +630,30 @@ const page = () => {
                       className="comboo-image bg-cover"
                       style={{
                         backgroundImage:
-                          'url("assets/img/banner/comboo-bg.jpg")',
+                          'url("/assets/img/banner/comboo-bg.jpg")',
                       }}
                     >
                       <div className="pizza-text">
                         <img
-                          src="assets/img/shape/combo-pizza-text.png"
+                          src="/assets/img/shape/combo-pizza-text.png"
                           alt="shape-img"
                         />
                       </div>
                       <div className="pizza-image">
                         <img
-                          src="assets/img/food/big-pizza.png"
+                          src="/assets/img/food/big-pizza.png"
                           alt="food-img"
                         />
                       </div>
                       <div className="offer-shape">
                         <img
-                          src="assets/img/offer/50percent-off-2.png"
+                          src="/assets/img/offer/50percent-off-2.png"
                           alt="shape-img"
                         />
                       </div>
                       <div className="vegetable-shape">
                         <img
-                          src="assets/img/shape/vegetable.png"
+                          src="/assets/img/shape/vegetable.png"
                           alt="shape-img"
                         />
                       </div>
@@ -669,30 +669,30 @@ const page = () => {
                       className="comboo-image bg-cover"
                       style={{
                         backgroundImage:
-                          'url("assets/img/banner/comboo-bg.jpg")',
+                          'url("/assets/img/banner/comboo-bg.jpg")',
                       }}
                     >
                       <div className="pizza-text">
                         <img
-                          src="assets/img/shape/combo-pizza-text.png"
+                          src="/assets/img/shape/combo-pizza-text.png"
                           alt="shape-img"
                         />
                       </div>
                       <div className="pizza-image">
                         <img
-                          src="assets/img/food/big-pizza.png"
+                          src="/assets/img/food/big-pizza.png"
                           alt="food-img"
                         />
                       </div>
                       <div className="offer-shape">
                         <img
-                          src="assets/img/offer/50percent-off-2.png"
+                          src="/assets/img/offer/50percent-off-2.png"
                           alt="shape-img"
                         />
                       </div>
                       <div className="vegetable-shape">
                         <img
-                          src="assets/img/shape/vegetable.png"
+                          src="/assets/img/shape/vegetable.png"
                           alt="shape-img"
                         />
                       </div>
@@ -712,7 +712,7 @@ const page = () => {
           <div
             className="food-icon-wrapper bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/shape/food-shape-2.png")',
+              backgroundImage: 'url("/assets/img/shape/food-shape-2.png")',
             }}
           >
             <div className="row g-4">
@@ -798,10 +798,10 @@ const page = () => {
                 data-wow-delay=".3s"
               >
                 <div className="about-image">
-                  <img src="assets/img/about/burger.png" alt="about-img" />
+                  <img src="/assets/img/about/burger.png" alt="about-img" />
                   <div className="burger-text">
                     <img
-                      src="assets/img/about/burger-text.png"
+                      src="/assets/img/about/burger-text.png"
                       alt="shape-img"
                     />
                   </div>
@@ -813,7 +813,7 @@ const page = () => {
                   <div
                     className="since-text bg-cover"
                     style={{
-                      backgroundImage: 'url("assets/img/shape/food-shape.png")',
+                      backgroundImage: 'url("/assets/img/shape/food-shape.png")',
                     }}
                   >
                     <h3>since /1985</h3>
@@ -900,7 +900,7 @@ const page = () => {
               <div
                 className="burger-banner-items bg-cover"
                 style={{
-                  backgroundImage: "url(assets/img/banner/burger-bg.png)",
+                  backgroundImage: "url(/assets/img/banner/burger-bg.png)",
                 }}
               >
                 <div className="burger-content text-center">
@@ -921,16 +921,16 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="burger-image">
-                  <img src="assets/img/food/big-burger.png" alt="food-img" />
+                  <img src="/assets/img/food/big-burger.png" alt="food-img" />
                 </div>
                 <div className="text-shape">
                   <img
-                    src="assets/img/shape/pizza-text-2.png"
+                    src="/assets/img/shape/pizza-text-2.png"
                     alt="shape-img"
                   />
                 </div>
                 <div className="burger-text">
-                  <img src="assets/img/shape/burger-text.png" alt="shape-img" />
+                  <img src="/assets/img/shape/burger-text.png" alt="shape-img" />
                 </div>
               </div>
             </div>
@@ -941,7 +941,7 @@ const page = () => {
               <div
                 className="single-offer-items style-2 bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/banner/pepsi-bg.png")',
+                  backgroundImage: 'url("/assets/img/banner/pepsi-bg.png")',
                 }}
               >
                 <div className="offer-content">
@@ -965,12 +965,12 @@ const page = () => {
                 </div>
                 <div className="offer-img">
                   <img
-                    src="assets/img/offer/50percent-off-3.png"
+                    src="/assets/img/offer/50percent-off-3.png"
                     alt="shape-img"
                   />
                 </div>
                 <div className="roller-box">
-                  <img src="assets/img/food/roller-box.png" alt="food-img" />
+                  <img src="/assets/img/food/roller-box.png" alt="food-img" />
                 </div>
               </div>
             </div>
@@ -980,7 +980,7 @@ const page = () => {
       {/* KFC Banner Section Start */}
       <section
         className="kfc-banner fix bg-cover section-padding"
-        style={{ backgroundImage: 'url("assets/img/bg-image/bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/bg-image/bg.jpg")' }}
       >
         <div className="kfc-wrapper">
           <div className="container-fluid">
@@ -989,15 +989,15 @@ const page = () => {
                 <div
                   className="kfc-image-items bg-cover"
                   style={{
-                    backgroundImage: 'url("assets/img/banner/kfc-bg.png")',
+                    backgroundImage: 'url("/assets/img/banner/kfc-bg.png")',
                   }}
                 >
                   <div className="kfc-image">
-                    <img src="assets/img/food/kfc.png" alt="food-img" />
+                    <img src="/assets/img/food/kfc.png" alt="food-img" />
                   </div>
                   <div className="offer-shape">
                     <img
-                      src="assets/img/offer/50percent-off-2.png"
+                      src="/assets/img/offer/50percent-off-2.png"
                       alt="shape-img"
                     />
                   </div>
@@ -1065,7 +1065,7 @@ const page = () => {
           <div
             className="main-cta-banner-wrapper bg-cover mt-10"
             style={{
-              backgroundImage: 'url("assets/img/banner/main-cta-bg.jpg")',
+              backgroundImage: 'url("/assets/img/banner/main-cta-bg.jpg")',
             }}
           >
             <div className="section-title">
@@ -1090,13 +1090,13 @@ const page = () => {
               </span>
             </Link>
             <div className="arrow-shape">
-              <img src="assets/img/shape/arrow-shape.png" alt="shape-img" />
+              <img src="/assets/img/shape/arrow-shape.png" alt="shape-img" />
             </div>
             <div className="delivery-man">
-              <img src="assets/img/delivery-man.png" alt="img" />
+              <img src="/assets/img/delivery-man.png" alt="img" />
             </div>
             <div className="frame-shape">
-              <img src="assets/img/shape/frame.png" alt="shape-img" />
+              <img src="/assets/img/shape/frame.png" alt="shape-img" />
             </div>
           </div>
         </div>
@@ -1104,7 +1104,7 @@ const page = () => {
       {/* Booking Section Start */}
       <section
         className="booking-section fix section-padding bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/main-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/banner/main-bg.jpg")' }}
       >
         <div className="container">
           <div className="booking-wrapper style-responsive section-padding pb-0">

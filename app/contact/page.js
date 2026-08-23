@@ -43,7 +43,7 @@ const page = () => {
                   } text-center`}
                 >
                   <div className="icon">
-                    <img src={`assets/img/icon/${item.icon}`} alt="icon-img" />
+                    <img src={`/assets/img/icon/${item.icon}`} alt="icon-img" />
                   </div>
                   <div className="content">
                     <h3>{item.title}</h3>

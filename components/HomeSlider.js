@@ -41,7 +41,7 @@ const HomeSlider = () => {
             <div
               className="hero-1 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg.jpg")',
               }}
             >
               <div
@@ -50,7 +50,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.1s"
               >
-                <img src="assets/img/hero/chilli-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape.png" alt="shape-img" />
               </div>
               <div
                 className="fire-shape"
@@ -58,7 +58,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.4s"
               >
-                <img src="assets/img/hero/fire-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/fire-shape.png" alt="shape-img" />
               </div>
               <div
                 className="chilii-shape-2"
@@ -66,7 +66,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.7s"
               >
-                <img src="assets/img/hero/chilli-shape-2.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape-2.png" alt="shape-img" />
               </div>
               <div
                 className="chilii-shape-3"
@@ -74,7 +74,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="3s"
               >
-                <img src="assets/img/hero/chilli-shape-3.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape-3.png" alt="shape-img" />
               </div>
               <div
                 className="offer-shape"
@@ -82,7 +82,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.1s"
               >
-                <img src="assets/img/hero/offer-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/offer-shape.png" alt="shape-img" />
               </div>
               <h2
                 className="hero-back-title"
@@ -131,7 +131,7 @@ const HomeSlider = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/chiken.png" alt="chiken-img" />
+                      <img src="/assets/img/hero/chiken.png" alt="chiken-img" />
                     </div>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ const HomeSlider = () => {
             <div
               className="hero-1 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg.jpg")',
               }}
             >
               <div
@@ -151,7 +151,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.1s"
               >
-                <img src="assets/img/hero/chilli-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape.png" alt="shape-img" />
               </div>
               <div
                 className="fire-shape"
@@ -159,7 +159,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.4s"
               >
-                <img src="assets/img/hero/fire-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/fire-shape.png" alt="shape-img" />
               </div>
               <div
                 className="chilii-shape-2"
@@ -167,7 +167,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.7s"
               >
-                <img src="assets/img/hero/chilli-shape-2.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape-2.png" alt="shape-img" />
               </div>
               <div
                 className="chilii-shape-3"
@@ -175,7 +175,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="3s"
               >
-                <img src="assets/img/hero/chilli-shape-3.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape-3.png" alt="shape-img" />
               </div>
               <div
                 className="offer-shape"
@@ -183,7 +183,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.1s"
               >
-                <img src="assets/img/hero/offer-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/offer-shape.png" alt="shape-img" />
               </div>
               <h2
                 className="hero-back-title"
@@ -232,7 +232,7 @@ const HomeSlider = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/chiken.png" alt="chiken-img" />
+                      <img src="/assets/img/hero/chiken.png" alt="chiken-img" />
                     </div>
                   </div>
                 </div>
@@ -243,7 +243,7 @@ const HomeSlider = () => {
             <div
               className="hero-1 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg.jpg")',
               }}
             >
               <div
@@ -252,7 +252,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.1s"
               >
-                <img src="assets/img/hero/chilli-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape.png" alt="shape-img" />
               </div>
               <div
                 className="fire-shape"
@@ -260,7 +260,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.4s"
               >
-                <img src="assets/img/hero/fire-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/fire-shape.png" alt="shape-img" />
               </div>
               <div
                 className="chilii-shape-2"
@@ -268,7 +268,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.7s"
               >
-                <img src="assets/img/hero/chilli-shape-2.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape-2.png" alt="shape-img" />
               </div>
               <div
                 className="chilii-shape-3"
@@ -276,7 +276,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="3s"
               >
-                <img src="assets/img/hero/chilli-shape-3.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape-3.png" alt="shape-img" />
               </div>
               <div
                 className="offer-shape"
@@ -284,7 +284,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.1s"
               >
-                <img src="assets/img/hero/offer-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/offer-shape.png" alt="shape-img" />
               </div>
               <h2
                 className="hero-back-title"
@@ -333,7 +333,7 @@ const HomeSlider = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/chiken.png" alt="chiken-img" />
+                      <img src="/assets/img/hero/chiken.png" alt="chiken-img" />
                     </div>
                   </div>
                 </div>
@@ -344,7 +344,7 @@ const HomeSlider = () => {
             <div
               className="hero-1 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg.jpg")',
               }}
             >
               <div
@@ -353,7 +353,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.1s"
               >
-                <img src="assets/img/hero/chilli-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape.png" alt="shape-img" />
               </div>
               <div
                 className="fire-shape"
@@ -361,7 +361,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.4s"
               >
-                <img src="assets/img/hero/fire-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/fire-shape.png" alt="shape-img" />
               </div>
               <div
                 className="chilii-shape-2"
@@ -369,7 +369,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.7s"
               >
-                <img src="assets/img/hero/chilli-shape-2.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape-2.png" alt="shape-img" />
               </div>
               <div
                 className="chilii-shape-3"
@@ -377,7 +377,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="3s"
               >
-                <img src="assets/img/hero/chilli-shape-3.png" alt="shape-img" />
+                <img src="/assets/img/hero/chilli-shape-3.png" alt="shape-img" />
               </div>
               <div
                 className="offer-shape"
@@ -385,7 +385,7 @@ const HomeSlider = () => {
                 data-duration={duration}
                 data-delay="2.1s"
               >
-                <img src="assets/img/hero/offer-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/offer-shape.png" alt="shape-img" />
               </div>
               <h2
                 className="hero-back-title"
@@ -434,7 +434,7 @@ const HomeSlider = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/chiken.png" alt="chiken-img" />
+                      <img src="/assets/img/hero/chiken.png" alt="chiken-img" />
                     </div>
                   </div>
                 </div>
@@ -486,7 +486,7 @@ export const HomeSlider2 = () => {
             <div
               className="hero-2 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg-2.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg-2.jpg")',
               }}
             >
               <div
@@ -495,7 +495,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.2s"
               >
-                <img src="assets/img/hero/left-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/left-shape.png" alt="shape-img" />
               </div>
               <div
                 className="chili-shape"
@@ -503,7 +503,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.4s"
               >
-                <img src="assets/img/hero/leaves+chilli.png" alt="shape-img" />
+                <img src="/assets/img/hero/leaves+chilli.png" alt="shape-img" />
               </div>
               <div
                 className="vagetable-shape"
@@ -511,7 +511,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.8s"
               >
-                <img src="assets/img/hero/onion+tomato.png" alt="shape-img" />
+                <img src="/assets/img/hero/onion+tomato.png" alt="shape-img" />
               </div>
               <div className="container">
                 <div className="row justify-content-between align-items-center">
@@ -561,7 +561,7 @@ export const HomeSlider2 = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/burger.png" alt="chiken-img" />
+                      <img src="/assets/img/hero/burger.png" alt="chiken-img" />
                       <div
                         className="burger-text"
                         data-animation="fadeInUp"
@@ -569,7 +569,7 @@ export const HomeSlider2 = () => {
                         data-delay="1.6s"
                       >
                         <img
-                          src="assets/img/hero/burger-text.png"
+                          src="/assets/img/hero/burger-text.png"
                           alt="shape-img"
                         />
                       </div>
@@ -580,7 +580,7 @@ export const HomeSlider2 = () => {
                         data-delay="1.8s"
                       >
                         <img
-                          src="assets/img/hero/today_best_deals.png"
+                          src="/assets/img/hero/today_best_deals.png"
                           alt="text-img"
                         />
                       </div>
@@ -594,7 +594,7 @@ export const HomeSlider2 = () => {
             <div
               className="hero-2 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg-2.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg-2.jpg")',
               }}
             >
               <div
@@ -603,7 +603,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.2s"
               >
-                <img src="assets/img/hero/left-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/left-shape.png" alt="shape-img" />
               </div>
               <div
                 className="chili-shape"
@@ -611,7 +611,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.4s"
               >
-                <img src="assets/img/hero/leaves+chilli.png" alt="shape-img" />
+                <img src="/assets/img/hero/leaves+chilli.png" alt="shape-img" />
               </div>
               <div
                 className="vagetable-shape"
@@ -619,7 +619,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.8s"
               >
-                <img src="assets/img/hero/onion+tomato.png" alt="shape-img" />
+                <img src="/assets/img/hero/onion+tomato.png" alt="shape-img" />
               </div>
               <div className="container">
                 <div className="row justify-content-between align-items-center">
@@ -673,7 +673,7 @@ export const HomeSlider2 = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/burger.png" alt="chiken-img" />
+                      <img src="/assets/img/hero/burger.png" alt="chiken-img" />
                       <div
                         className="burger-text"
                         data-animation="fadeInUp"
@@ -681,7 +681,7 @@ export const HomeSlider2 = () => {
                         data-delay="1.6s"
                       >
                         <img
-                          src="assets/img/hero/burger-text.png"
+                          src="/assets/img/hero/burger-text.png"
                           alt="shape-img"
                         />
                       </div>
@@ -692,7 +692,7 @@ export const HomeSlider2 = () => {
                         data-delay="1.8s"
                       >
                         <img
-                          src="assets/img/hero/today_best_deals.png"
+                          src="/assets/img/hero/today_best_deals.png"
                           alt="text-img"
                         />
                       </div>
@@ -706,7 +706,7 @@ export const HomeSlider2 = () => {
             <div
               className="hero-2 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg-2.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg-2.jpg")',
               }}
             >
               <div
@@ -715,7 +715,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.2s"
               >
-                <img src="assets/img/hero/left-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/left-shape.png" alt="shape-img" />
               </div>
               <div
                 className="chili-shape"
@@ -723,7 +723,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.4s"
               >
-                <img src="assets/img/hero/leaves+chilli.png" alt="shape-img" />
+                <img src="/assets/img/hero/leaves+chilli.png" alt="shape-img" />
               </div>
               <div
                 className="vagetable-shape"
@@ -731,7 +731,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.8s"
               >
-                <img src="assets/img/hero/onion+tomato.png" alt="shape-img" />
+                <img src="/assets/img/hero/onion+tomato.png" alt="shape-img" />
               </div>
               <div className="container">
                 <div className="row justify-content-between align-items-center">
@@ -785,7 +785,7 @@ export const HomeSlider2 = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/burger.png" alt="chiken-img" />
+                      <img src="/assets/img/hero/burger.png" alt="chiken-img" />
                       <div
                         className="burger-text"
                         data-animation="fadeInUp"
@@ -793,7 +793,7 @@ export const HomeSlider2 = () => {
                         data-delay="1.6s"
                       >
                         <img
-                          src="assets/img/hero/burger-text.png"
+                          src="/assets/img/hero/burger-text.png"
                           alt="shape-img"
                         />
                       </div>
@@ -804,7 +804,7 @@ export const HomeSlider2 = () => {
                         data-delay="1.8s"
                       >
                         <img
-                          src="assets/img/hero/today_best_deals.png"
+                          src="/assets/img/hero/today_best_deals.png"
                           alt="text-img"
                         />
                       </div>
@@ -818,7 +818,7 @@ export const HomeSlider2 = () => {
             <div
               className="hero-2 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg-2.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg-2.jpg")',
               }}
             >
               <div
@@ -827,7 +827,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.2s"
               >
-                <img src="assets/img/hero/left-shape.png" alt="shape-img" />
+                <img src="/assets/img/hero/left-shape.png" alt="shape-img" />
               </div>
               <div
                 className="chili-shape"
@@ -835,7 +835,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.4s"
               >
-                <img src="assets/img/hero/leaves+chilli.png" alt="shape-img" />
+                <img src="/assets/img/hero/leaves+chilli.png" alt="shape-img" />
               </div>
               <div
                 className="vagetable-shape"
@@ -843,7 +843,7 @@ export const HomeSlider2 = () => {
                 data-duration={duration}
                 data-delay="2.8s"
               >
-                <img src="assets/img/hero/onion+tomato.png" alt="shape-img" />
+                <img src="/assets/img/hero/onion+tomato.png" alt="shape-img" />
               </div>
               <div className="container">
                 <div className="row justify-content-between align-items-center">
@@ -891,7 +891,7 @@ export const HomeSlider2 = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/burger.png" alt="chiken-img" />
+                      <img src="/assets/img/hero/burger.png" alt="chiken-img" />
                       <div
                         className="burger-text"
                         data-animation="fadeInUp"
@@ -899,7 +899,7 @@ export const HomeSlider2 = () => {
                         data-delay="1.6s"
                       >
                         <img
-                          src="assets/img/hero/burger-text.png"
+                          src="/assets/img/hero/burger-text.png"
                           alt="shape-img"
                         />
                       </div>
@@ -910,7 +910,7 @@ export const HomeSlider2 = () => {
                         data-delay="1.8s"
                       >
                         <img
-                          src="assets/img/hero/today_best_deals.png"
+                          src="/assets/img/hero/today_best_deals.png"
                           alt="text-img"
                         />
                       </div>
@@ -967,7 +967,7 @@ export const HomeSlider3 = () => {
             <div
               className="hero-3 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg-3.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg-3.jpg")',
               }}
             >
               <div
@@ -976,7 +976,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2s"
               >
-                <img src="assets/img/hero/frame.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-2"
@@ -984,11 +984,11 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.2s"
               >
-                <img src="assets/img/hero/frame-2.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-2.png" alt="shape-img" />
               </div>
               <div className="frame-shape-3">
                 <img
-                  src="assets/img/hero/frame-3.png"
+                  src="/assets/img/hero/frame-3.png"
                   alt="shape-img"
                   data-animation="fadeInUp"
                   data-duration={duration}
@@ -1001,7 +1001,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.6s"
               >
-                <img src="assets/img/hero/frame-4.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-4.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-5"
@@ -1009,7 +1009,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.8s"
               >
-                <img src="assets/img/hero/frame-5.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-5.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-6"
@@ -1017,7 +1017,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.9s"
               >
-                <img src="assets/img/hero/frame-6.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-6.png" alt="shape-img" />
               </div>
               <div className="container">
                 <div className="row align-items-center">
@@ -1060,7 +1060,7 @@ export const HomeSlider3 = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/pizza.png" alt="pizza-img" />
+                      <img src="/assets/img/hero/pizza.png" alt="pizza-img" />
                     </div>
                   </div>
                 </div>
@@ -1071,7 +1071,7 @@ export const HomeSlider3 = () => {
             <div
               className="hero-3 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg-3.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg-3.jpg")',
               }}
             >
               <div
@@ -1080,7 +1080,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2s"
               >
-                <img src="assets/img/hero/frame.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-2"
@@ -1088,11 +1088,11 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.2s"
               >
-                <img src="assets/img/hero/frame-2.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-2.png" alt="shape-img" />
               </div>
               <div className="frame-shape-3">
                 <img
-                  src="assets/img/hero/frame-3.png"
+                  src="/assets/img/hero/frame-3.png"
                   alt="shape-img"
                   data-animation="fadeInUp"
                   data-duration={duration}
@@ -1105,7 +1105,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.6s"
               >
-                <img src="assets/img/hero/frame-4.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-4.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-5"
@@ -1113,7 +1113,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.8s"
               >
-                <img src="assets/img/hero/frame-5.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-5.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-6"
@@ -1121,7 +1121,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.9s"
               >
-                <img src="assets/img/hero/frame-6.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-6.png" alt="shape-img" />
               </div>
               <div className="container">
                 <div className="row align-items-center">
@@ -1164,7 +1164,7 @@ export const HomeSlider3 = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/pizza-2.png" alt="pizza-img" />
+                      <img src="/assets/img/hero/pizza-2.png" alt="pizza-img" />
                     </div>
                   </div>
                 </div>
@@ -1175,7 +1175,7 @@ export const HomeSlider3 = () => {
             <div
               className="hero-3 bg-cover"
               style={{
-                backgroundImage: 'url("assets/img/hero/hero-bg-3.jpg")',
+                backgroundImage: 'url("/assets/img/hero/hero-bg-3.jpg")',
               }}
             >
               <div
@@ -1184,7 +1184,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2s"
               >
-                <img src="assets/img/hero/frame.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-2"
@@ -1192,11 +1192,11 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.2s"
               >
-                <img src="assets/img/hero/frame-2.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-2.png" alt="shape-img" />
               </div>
               <div className="frame-shape-3">
                 <img
-                  src="assets/img/hero/frame-3.png"
+                  src="/assets/img/hero/frame-3.png"
                   alt="shape-img"
                   data-animation="fadeInUp"
                   data-duration={duration}
@@ -1209,7 +1209,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.6s"
               >
-                <img src="assets/img/hero/frame-4.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-4.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-5"
@@ -1217,7 +1217,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.8s"
               >
-                <img src="assets/img/hero/frame-5.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-5.png" alt="shape-img" />
               </div>
               <div
                 className="frame-shape-6"
@@ -1225,7 +1225,7 @@ export const HomeSlider3 = () => {
                 data-duration={duration}
                 data-delay="2.9s"
               >
-                <img src="assets/img/hero/frame-6.png" alt="shape-img" />
+                <img src="/assets/img/hero/frame-6.png" alt="shape-img" />
               </div>
               <div className="container">
                 <div className="row align-items-center">
@@ -1268,7 +1268,7 @@ export const HomeSlider3 = () => {
                       data-duration={duration}
                       data-delay="1.4s"
                     >
-                      <img src="assets/img/hero/pizza.png" alt="pizza-img" />
+                      <img src="/assets/img/hero/pizza.png" alt="pizza-img" />
                     </div>
                   </div>
                 </div>

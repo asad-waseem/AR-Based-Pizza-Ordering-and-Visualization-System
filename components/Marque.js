@@ -9,18 +9,18 @@ const Marque = ({ pt = 0 }) => {
               <span className="text-slider" />{" "}
               <span className="text-slider text-color">dishes</span>
               <span className="text-slider">
-                <img src="assets/img/icon/burger.png" alt="icon-img" />
+                <img src="/assets/img/icon/burger.png" alt="icon-img" />
               </span>{" "}
               <span className="text-slider" />{" "}
               <span className="text-slider text-color-2">delicious</span>
               <span className="text-slider text-color-2">food</span>{" "}
-              <img src="assets/img/icon/pizza.png" alt="icon-img" />{" "}
+              <img src="/assets/img/icon/pizza.png" alt="icon-img" />{" "}
               <span className="text-slider" />{" "}
               <span className="text-slider text-color">populer</span>
               <span className="text-slider text-color">dishes</span>{" "}
               <span className="text-slider" />
               <span className="text-slider">
-                <img src="assets/img/icon/burger.png" alt="icon-img" />
+                <img src="/assets/img/icon/burger.png" alt="icon-img" />
               </span>{" "}
               <span className="text-slider" />{" "}
               <span className="text-slider text-color-2">delicious</span>
@@ -28,18 +28,18 @@ const Marque = ({ pt = 0 }) => {
               <span className="text-slider" />{" "}
               <span className="text-slider text-color">dishes</span>
               <span className="text-slider">
-                <img src="assets/img/icon/burger.png" alt="icon-img" />
+                <img src="/assets/img/icon/burger.png" alt="icon-img" />
               </span>{" "}
               <span className="text-slider" />{" "}
               <span className="text-slider text-color-2">delicious</span>
               <span className="text-slider text-color-2">food</span>{" "}
-              <img src="assets/img/icon/pizza.png" alt="icon-img" />{" "}
+              <img src="/assets/img/icon/pizza.png" alt="icon-img" />{" "}
               <span className="text-slider" />{" "}
               <span className="text-slider text-color">populer</span>
               <span className="text-slider text-color">dishes</span>{" "}
               <span className="text-slider" />
               <span className="text-slider">
-                <img src="assets/img/icon/burger.png" alt="icon-img" />
+                <img src="/assets/img/icon/burger.png" alt="icon-img" />
               </span>{" "}
               <span className="text-slider" />{" "}
               <span className="text-slider text-color-2">delicious</span>

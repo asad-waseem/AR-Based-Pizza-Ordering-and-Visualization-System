@@ -8,7 +8,7 @@ const ProductTopBar = ({ mb0 = false }) => {
         <h5>
           <Link href="/shop">
             <span>
-              <img src="assets/img/filter.png" alt="img" />
+              <img src="/assets/img/filter.png" alt="img" />
             </span>{" "}
             Filtering
           </Link>

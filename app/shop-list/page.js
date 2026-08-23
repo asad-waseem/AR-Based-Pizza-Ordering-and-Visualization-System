@@ -19,7 +19,7 @@ const page = () => {
                   <div className="shop-list-items">
                     <div className="shop-image">
                       <img
-                        src="assets/img/shop-food/list/01.png"
+                        src="/assets/img/shop-food/list/01.png"
                         alt="shop-img"
                       />
                     </div>
@@ -71,7 +71,7 @@ const page = () => {
                   <div className="shop-list-items">
                     <div className="shop-image">
                       <img
-                        src="assets/img/shop-food/list/02.png"
+                        src="/assets/img/shop-food/list/02.png"
                         alt="shop-img"
                       />
                     </div>
@@ -123,7 +123,7 @@ const page = () => {
                   <div className="shop-list-items">
                     <div className="shop-image">
                       <img
-                        src="assets/img/shop-food/list/03.png"
+                        src="/assets/img/shop-food/list/03.png"
                         alt="shop-img"
                       />
                     </div>
@@ -175,7 +175,7 @@ const page = () => {
                   <div className="shop-list-items">
                     <div className="shop-image">
                       <img
-                        src="assets/img/shop-food/list/04.png"
+                        src="/assets/img/shop-food/list/04.png"
                         alt="shop-img"
                       />
                     </div>
@@ -227,7 +227,7 @@ const page = () => {
                   <div className="shop-list-items">
                     <div className="shop-image">
                       <img
-                        src="assets/img/shop-food/list/05.png"
+                        src="/assets/img/shop-food/list/05.png"
                         alt="shop-img"
                       />
                     </div>

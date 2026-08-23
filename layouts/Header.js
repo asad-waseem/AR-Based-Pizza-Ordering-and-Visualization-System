@@ -28,7 +28,7 @@ const Menus = () => {
             <div className="row g-4">
               <div className="col-lg-4 homemenu">
                 <div className="homemenu-thumb">
-                  <img src="assets/img/header/home-1.jpg" alt="img" />
+                  <img src="/assets/img/header/home-1.jpg" alt="img" />
                   <div className="demo-button">
                     <Link href="/" className="theme-btn">
                       View Demo
@@ -43,7 +43,7 @@ const Menus = () => {
               </div>
               <div className="col-lg-4  homemenu">
                 <div className="homemenu-thumb mb-15">
-                  <img src="assets/img/header/home-2.jpg" alt="img" />
+                  <img src="/assets/img/header/home-2.jpg" alt="img" />
                   <div className="demo-button">
                     <Link href="index-2" className="theme-btn">
                       View Demo
@@ -58,7 +58,7 @@ const Menus = () => {
               </div>
               <div className="col-lg-4 homemenu">
                 <div className="homemenu-thumb mb-15">
-                  <img src="assets/img/header/home-3.jpg" alt="img" />
+                  <img src="/assets/img/header/home-3.jpg" alt="img" />
                   <div className="demo-button">
                     <Link href="index-3" className="theme-btn">
                       View Demo
@@ -228,7 +228,7 @@ const Header1 = () => {
               <div className="header-main">
                 <div className="logo">
                   <Link href="/" className="header-logo">
-                    <img src="assets/img/logo/logo.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/logo.svg" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="header-left">
@@ -246,7 +246,7 @@ const Header1 = () => {
                     <div className="cart-box">
                       <ul>
                         <li>
-                          <img src="assets/img/shop-food/s2.png" alt="image" />
+                          <img src="/assets/img/shop-food/s2.png" alt="image" />
                           <div className="cart-product">
                             <a href="#0">grilled chiken</a>
                             <span>168$</span>
@@ -255,7 +255,7 @@ const Header1 = () => {
                       </ul>
                       <ul>
                         <li className="border-none">
-                          <img src="assets/img/shop-food/s3.png" alt="image" />
+                          <img src="/assets/img/shop-food/s3.png" alt="image" />
                           <div className="cart-product">
                             <a href="#0">grilled chiken</a>
                             <span>168$</span>
@@ -334,12 +334,12 @@ const Header2 = () => {
                 <div className="header-left">
                   <div className="logo">
                     <Link href="/" className="header-logo">
-                      <img src="assets/img/logo/logo-3.svg" alt="logo-img" />
+                      <img src="/assets/img/logo/logo-3.svg" alt="logo-img" />
                     </Link>
                   </div>
                   <div className="logo-2">
                     <Link href="/" className="header-logo">
-                      <img src="assets/img/logo/logo.svg" alt="logo-img" />
+                      <img src="/assets/img/logo/logo.svg" alt="logo-img" />
                     </Link>
                   </div>
                 </div>
@@ -359,7 +359,7 @@ const Header2 = () => {
                     <div className="cart-box">
                       <ul>
                         <li>
-                          <img src="assets/img/shop-food/s2.png" alt="image" />
+                          <img src="/assets/img/shop-food/s2.png" alt="image" />
                           <div className="cart-product">
                             <a href="#0">grilled chiken</a>
                             <span>168$</span>
@@ -368,7 +368,7 @@ const Header2 = () => {
                       </ul>
                       <ul>
                         <li className="border-none">
-                          <img src="assets/img/shop-food/s3.png" alt="image" />
+                          <img src="/assets/img/shop-food/s3.png" alt="image" />
                           <div className="cart-product">
                             <a href="#0">grilled chiken</a>
                             <span>168$</span>
@@ -408,12 +408,12 @@ const Header2 = () => {
                   <div className="header__hamburger d-xl-block my-auto">
                     <div className="sidebar__toggle">
                       <img
-                        src="assets/img/logo/bar.svg"
+                        src="/assets/img/logo/bar.svg"
                         alt="bar-icon"
                         className="bar-1"
                       />
                       <img
-                        src="assets/img/logo/bar-2.svg"
+                        src="/assets/img/logo/bar-2.svg"
                         alt="bar-icon"
                         className="bar-2"
                       />
@@ -440,7 +440,7 @@ const Sidebar = ({ toggle, setToggle }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/logo.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/logo.svg" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -457,42 +457,42 @@ const Sidebar = ({ toggle, setToggle }) => {
               <div className="offcanvas-gallery-area d-none d-lg-block">
                 <div className="offcanvas-gallery-items">
                   <a
-                    href="assets/img/header/01.jpg"
+                    href="/assets/img/header/01.jpg"
                     className="offcanvas-image img-popup"
                   >
-                    <img src="assets/img/header/01.jpg" alt="gallery-img" />
+                    <img src="/assets/img/header/01.jpg" alt="gallery-img" />
                   </a>
                   <a
-                    href="assets/img/header/02.jpg"
+                    href="/assets/img/header/02.jpg"
                     className="offcanvas-image img-popup"
                   >
-                    <img src="assets/img/header/02.jpg" alt="gallery-img" />
+                    <img src="/assets/img/header/02.jpg" alt="gallery-img" />
                   </a>
                   <a
-                    href="assets/img/header/03.jpg"
+                    href="/assets/img/header/03.jpg"
                     className="offcanvas-image img-popup"
                   >
-                    <img src="assets/img/header/03.jpg" alt="gallery-img" />
+                    <img src="/assets/img/header/03.jpg" alt="gallery-img" />
                   </a>
                 </div>
                 <div className="offcanvas-gallery-items">
                   <a
-                    href="assets/img/header/04.jpg"
+                    href="/assets/img/header/04.jpg"
                     className="offcanvas-image img-popup"
                   >
-                    <img src="assets/img/header/04.jpg" alt="gallery-img" />
+                    <img src="/assets/img/header/04.jpg" alt="gallery-img" />
                   </a>
                   <a
-                    href="assets/img/header/05.jpg"
+                    href="/assets/img/header/05.jpg"
                     className="offcanvas-image img-popup"
                   >
-                    <img src="assets/img/header/05.jpg" alt="gallery-img" />
+                    <img src="/assets/img/header/05.jpg" alt="gallery-img" />
                   </a>
                   <a
-                    href="assets/img/header/06.jpg"
+                    href="/assets/img/header/06.jpg"
                     className="offcanvas-image img-popup"
                   >
-                    <img src="assets/img/header/06.jpg" alt="gallery-img" />
+                    <img src="/assets/img/header/06.jpg" alt="gallery-img" />
                   </a>
                 </div>
               </div>
@@ -611,7 +611,7 @@ const MobileMenu = () => {
                   <div className="row g-4">
                     <div className="col-lg-4 homemenu">
                       <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-1.jpg" alt="img" />
+                        <img src="/assets/img/header/home-1.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="/" className="theme-btn">
                             View Demo
@@ -626,7 +626,7 @@ const MobileMenu = () => {
                     </div>
                     <div className="col-lg-4  homemenu">
                       <div className="homemenu-thumb mb-15">
-                        <img src="assets/img/header/home-2.jpg" alt="img" />
+                        <img src="/assets/img/header/home-2.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="/index-2" className="theme-btn">
                             View Demo
@@ -641,7 +641,7 @@ const MobileMenu = () => {
                     </div>
                     <div className="col-lg-4 homemenu">
                       <div className="homemenu-thumb mb-15">
-                        <img src="assets/img/header/home-3.jpg" alt="img" />
+                        <img src="/assets/img/header/home-3.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="/index-3" className="theme-btn">
                             View Demo

@@ -146,7 +146,7 @@ const page = () => {
       {/* Booking Section Start */}
       <section
         className="booking-section mt-0 fix section-padding bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/main-bg.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/banner/main-bg.jpg")' }}
       >
         <div className="container">
           <div className="booking-wrapper">

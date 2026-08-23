@@ -9,62 +9,62 @@ const BrandSlider = () => {
       <div className="swiper-wrapper">
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/01.svg" alt="brand-img" />
+            <img src="/assets/img/brand/01.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/02.svg" alt="brand-img" />
+            <img src="/assets/img/brand/02.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/03.svg" alt="brand-img" />
+            <img src="/assets/img/brand/03.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/04.svg" alt="brand-img" />
+            <img src="/assets/img/brand/04.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/05.svg" alt="brand-img" />
+            <img src="/assets/img/brand/05.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/06.svg" alt="brand-img" />
+            <img src="/assets/img/brand/06.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/01.svg" alt="brand-img" />
+            <img src="/assets/img/brand/01.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/02.svg" alt="brand-img" />
+            <img src="/assets/img/brand/02.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/03.svg" alt="brand-img" />
+            <img src="/assets/img/brand/03.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/04.svg" alt="brand-img" />
+            <img src="/assets/img/brand/04.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/05.svg" alt="brand-img" />
+            <img src="/assets/img/brand/05.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/06.svg" alt="brand-img" />
+            <img src="/assets/img/brand/06.svg" alt="brand-img" />
           </div>
         </SwiperSlide>
       </div>

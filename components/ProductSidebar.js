@@ -134,7 +134,7 @@ const ProductSidebar = ({
               <div
                 className="thumb bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/shop-food/food-1.png")',
+                  backgroundImage: 'url("/assets/img/shop-food/food-1.png")',
                 }}
               />
               <div className="post-content">
@@ -158,7 +158,7 @@ const ProductSidebar = ({
               <div
                 className="thumb bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/shop-food/food-2.png")',
+                  backgroundImage: 'url("/assets/img/shop-food/food-2.png")',
                 }}
               />
               <div className="post-content">
@@ -182,7 +182,7 @@ const ProductSidebar = ({
               <div
                 className="thumb bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/shop-food/food-3.png")',
+                  backgroundImage: 'url("/assets/img/shop-food/food-3.png")',
                 }}
               />
               <div className="post-content">
@@ -206,7 +206,7 @@ const ProductSidebar = ({
               <div
                 className="thumb bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/shop-food/food-4.png")',
+                  backgroundImage: 'url("/assets/img/shop-food/food-4.png")',
                 }}
               />
               <div className="post-content">
