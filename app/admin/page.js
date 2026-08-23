@@ -10,6 +10,11 @@ const AdminPage = () => {
 
   useEffect(() => {
     fetchOrders();
+    // Auto-refresh orders every 4 seconds
+    const interval = setInterval(() => {
+      fetchOrders(false);
+    }, 4000);
+    return () => clearInterval(interval);
   }, []);
 
   useEffect(() => {
@@ -21,22 +26,28 @@ const AdminPage = () => {
     }
   }, [printingOrder]);
 
-  const fetchOrders = async () => {
+  const fetchOrders = async (showLoading = true) => {
+    if (showLoading) setLoading(true);
     try {
-      const res = await fetch("/api/orders");
+      const res = await fetch(`/api/orders?t=${Date.now()}`, {
+        cache: "no-store",
+        headers: { "Pragma": "no-cache" }
+      });
       const data = await res.json();
-      setOrders(data);
+      if (Array.isArray(data)) {
+        setOrders(data);
+      }
     } catch (err) {
-      console.error(err);
+      console.error("Failed to fetch orders:", err);
     } finally {
-      setLoading(false);
+      if (showLoading) setLoading(false);
     }
   };
 
   const clearOrders = async () => {
-    if(confirm("Are you sure you want to clear all orders?")) {
+    if (confirm("Are you sure you want to clear all orders?")) {
       await fetch("/api/orders", { method: "DELETE" });
-      fetchOrders();
+      fetchOrders(true);
     }
   };
 
@@ -169,11 +180,15 @@ const AdminPage = () => {
       <PageBanner pageName={"Admin Panel"} />
       <section className="section-padding">
         <div className="container">
-          <div className="d-flex justify-content-between align-items-center mb-4">
-            <h2>Order Management</h2>
+          <div className="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+            <h2>Order Management <span className="badge bg-danger ms-2" style={{fontSize:'15px', verticalAlign:'middle'}}>{orders.length} {orders.length === 1 ? 'Order' : 'Orders'}</span></h2>
             <div>
-               <button onClick={fetchOrders} className="theme-btn me-2" style={{padding: '10px 20px', borderRadius:'5px'}}>Refresh</button>
-               <button onClick={clearOrders} className="theme-btn bg-danger" style={{padding: '10px 20px', borderRadius:'5px'}}>Clear All</button>
+               <button onClick={() => fetchOrders(true)} className="theme-btn me-2" style={{padding: '10px 20px', borderRadius:'5px'}}>
+                 <i className="fas fa-sync-alt me-1"></i> Refresh
+               </button>
+               <button onClick={clearOrders} className="theme-btn bg-danger" style={{padding: '10px 20px', borderRadius:'5px'}}>
+                 <i className="fas fa-trash me-1"></i> Clear All
+               </button>
             </div>
           </div>
           
