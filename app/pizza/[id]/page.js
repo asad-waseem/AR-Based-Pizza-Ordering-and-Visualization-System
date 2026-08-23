@@ -122,17 +122,23 @@ const PizzaDetailPage = ({ params }) => {
         show={showARModal} 
         onHide={() => setShowARModal(false)}
         isSupported={true} 
-        onLaunchAR={() => {
+        onLaunchAR={async () => {
           setShowARModal(false);
-          // In a real implementation we would trigger intent/QuickLook here
-          // For now, this is a placeholder behavior as model-viewer handles AR via its own slot sometimes,
-          // but if we are manually launching, we'd do it here.
-          // Since model-viewer handles it natively if we configure it, we might just click the model-viewer's hidden AR button.
           const viewer = document.querySelector('model-viewer');
           if (viewer && viewer.activateAR) {
-            viewer.activateAR();
+            try {
+              // Some browsers require a small delay to close the modal first, but activateAR needs a user gesture.
+              await viewer.activateAR();
+            } catch (error) {
+              console.error(error);
+              if (window.location.protocol !== 'https:' && window.location.hostname !== 'localhost') {
+                alert("AR Error: Mobile AR requires a secure HTTPS connection. Accessing via a local IP (e.g. 192.168.x.x) disables AR for security reasons.");
+              } else {
+                alert("Could not launch AR: " + error.message);
+              }
+            }
           } else {
-            alert("AR launch simulated for demo.");
+            alert("AR is not fully supported or the model-viewer is not ready yet.");
           }
         }} 
       />
