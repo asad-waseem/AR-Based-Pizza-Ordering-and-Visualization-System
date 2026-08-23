@@ -40,8 +40,7 @@ const FoodSlider = () => {
           {...sliderProps.foodCatagorySlider}
           className="swiper food-catagory-slider"
         >
-          <div className="swiper-wrapper">
-            <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
               <div
                 className="catagory-product-card bg-cover"
                 style={{
@@ -415,8 +414,7 @@ const FoodSlider = () => {
                 </div>
               </div>
             </SwiperSlide>
-          </div>
-        </Swiper>
+      </Swiper>
       </div>
     </section>
   );

@@ -9,8 +9,7 @@ const InstagramBannerSlider = () => {
         {...sliderProps.instagramBannerSlider}
         className="swiper instagram-banner-slider"
       >
-        <div className="swiper-wrapper">
-          <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
             <div className="instagram-banner-items">
               <div className="banner-image">
                 <img src="/assets/img/instagram-banner/01.jpg" alt="food-img" />
@@ -140,7 +139,6 @@ const InstagramBannerSlider = () => {
               </div>
             </div>
           </SwiperSlide>
-        </div>
       </Swiper>
     </div>
   );

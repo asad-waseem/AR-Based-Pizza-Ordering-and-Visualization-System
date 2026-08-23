@@ -21,8 +21,7 @@ const NextSaleBanner = () => {
                   <i className="far fa-long-arrow-left" />
                 </button>
               </div>
-              <div className="swiper-wrapper">
-                <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
                   <div
                     className="today-best-sale-image bg-cover"
                     style={{
@@ -48,8 +47,7 @@ const NextSaleBanner = () => {
                     }}
                   />
                 </SwiperSlide>
-              </div>
-            </Swiper>
+      </Swiper>
           </div>
           <div className="col-xl-4 col-lg-5">
             <div

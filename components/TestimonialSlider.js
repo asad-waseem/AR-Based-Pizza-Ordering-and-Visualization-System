@@ -26,8 +26,7 @@ const TestimonialSlider = ({ sectionBg = true }) => {
               {...sliderProps.testimonialContentSlider}
               className="swiper testimonial-content-slider"
             >
-              <div className="swiper-wrapper">
-                <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
                   <div className="testimonial-content">
                     <div className="client-info">
                       <h4>Piter Bowman</h4>
@@ -147,14 +146,12 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                     </div>
                   </div>
                 </SwiperSlide>
-              </div>
-            </Swiper>
+      </Swiper>
             <Swiper
               {...sliderProps.testimonialImageSlider}
               className="swiper testimonial-image-slider"
             >
-              <div className="swiper-wrapper">
-                <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
                   <div className="client-image-item">
                     <div
                       className="client-img bg-cover"
@@ -214,8 +211,7 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                     />
                   </div>
                 </SwiperSlide>
-              </div>
-            </Swiper>
+      </Swiper>
           </div>
         </div>
       </div>
@@ -249,8 +245,7 @@ export const TestimonialSlider2 = () => {
                 {...sliderProps.testimonialContentSlider2}
                 className="swiper testimonial-content-slider-2"
               >
-                <div className="swiper-wrapper">
-                  <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
                     <div className="testimonial-content center">
                       <div className="client-info">
                         <h4>Piter Bowman</h4>
@@ -354,8 +349,7 @@ export const TestimonialSlider3 = () => {
                 {...sliderProps.testimonialContentSlider3}
                 className="swiper testimonial-content-slider-3"
               >
-                <div className="swiper-wrapper">
-                  <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
                     <div className="testimonial-content">
                       <div className="info-icon d-flex align-items-center">
                         <img src="/assets/img/icon/quote.svg" alt="icon-img" />
@@ -491,8 +485,7 @@ export const TestimonialSlider3 = () => {
                       </div>
                     </div>
                   </SwiperSlide>
-                </div>
-              </Swiper>
+      </Swiper>
             </div>
             <div className="col-xl-4 col-lg-4 mt-5 mt-lg-0">
               <div

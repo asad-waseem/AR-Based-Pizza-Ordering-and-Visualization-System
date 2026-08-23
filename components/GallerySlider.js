@@ -20,8 +20,7 @@ const GallerySlider = () => {
           {...sliderProps.gallerySlider}
           className="swiper gallery-slider"
         >
-          <div className="swiper-wrapper">
-            <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
               <div className="gallery-image">
                 <img src="/assets/img/gallery/01.jpg" alt="gallery-img" />
                 <div className="icon">
@@ -81,8 +80,7 @@ const GallerySlider = () => {
                 </div>
               </div>
             </SwiperSlide>
-          </div>
-        </Swiper>
+      </Swiper>
       </div>
     </div>
   );

@@ -28,7 +28,7 @@ const HomeSlider = () => {
       swiperInstance.off("slideChange", onSlideChange);
     };
   }, []);
-  const duration = "1";
+  const duration = "1s";
   return (
     <section className="hero-section">
       <Swiper
@@ -36,8 +36,7 @@ const HomeSlider = () => {
         {...sliderProps.hero}
         className="swiper hero-slider"
       >
-        <div className="swiper-wrapper">
-          <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
             <div
               className="hero-1 bg-cover"
               style={{
@@ -441,7 +440,6 @@ const HomeSlider = () => {
               </div>
             </div>
           </SwiperSlide>
-        </div>
       </Swiper>
       <div className="swiper-dot text-center pt-5">
         <div className="dot" />
@@ -473,7 +471,7 @@ export const HomeSlider2 = () => {
       swiperInstance.off("slideChange", onSlideChange);
     };
   }, []);
-  const duration = "1";
+  const duration = "1s";
   return (
     <section className="hero-section">
       <Swiper
@@ -481,8 +479,7 @@ export const HomeSlider2 = () => {
         {...sliderProps.hero}
         className="swiper hero-slider"
       >
-        <div className="swiper-wrapper">
-          <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
             <div
               className="hero-2 bg-cover"
               style={{
@@ -920,7 +917,6 @@ export const HomeSlider2 = () => {
               </div>
             </div>
           </SwiperSlide>
-        </div>
       </Swiper>
       <div className="swiper-dot text-center pt-5">
         <div className="dot" />
@@ -951,7 +947,7 @@ export const HomeSlider3 = () => {
       swiperInstance.off("slideChange", onSlideChange);
     };
   }, []);
-  const duration = "1";
+  const duration = "1s";
   return (
     <section className="hero-section-3">
       <div className="pegi-wrp">
@@ -962,8 +958,7 @@ export const HomeSlider3 = () => {
         ref={swiperRef}
         className="swiper hero-slider"
       >
-        <div className="swiper-wrapper">
-          <SwiperSlide className="swiper-slide">
+<SwiperSlide className="swiper-slide">
             <div
               className="hero-3 bg-cover"
               style={{
@@ -1275,7 +1270,6 @@ export const HomeSlider3 = () => {
               </div>
             </div>
           </SwiperSlide>
-        </div>
       </Swiper>
     </section>
   );
