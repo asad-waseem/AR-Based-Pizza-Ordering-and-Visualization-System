@@ -11,6 +11,8 @@ import 'rc-slider/assets/index.css';
 
 import Preloader from "@/layouts/Preloader";
 import { CartProvider } from "@/context/CartContext";
+import Chatbot from "@/components/Chatbot";
+import VoiceCall from "@/components/VoiceCall";
 
 export const metadata = {
   title: "Foodking - Resturent React NextJS Template",
@@ -24,6 +26,8 @@ export default function RootLayout({ children }) {
         <CartProvider>
           <Preloader />
           {children}
+          <Chatbot />
+          <VoiceCall />
         </CartProvider>
       </body>
     </html>

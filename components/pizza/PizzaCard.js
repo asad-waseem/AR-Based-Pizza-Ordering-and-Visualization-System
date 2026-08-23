@@ -31,7 +31,11 @@ const PizzaCard = ({ pizza }) => {
       </div>
       <div className="catagory-product-image">
         <Link href={`/pizza/${pizza.slug}`}>
-          <img src={pizza.image} alt={pizza.name} />
+          <img 
+            src={pizza.image} 
+            alt={pizza.name} 
+            style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '10px' }}
+          />
         </Link>
       </div>
       <div className="catagory-product-content">

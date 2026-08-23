@@ -7,9 +7,9 @@ export const pizzas = [
     name: "Classic Margherita",
     shortDescription: "Classic tomato, mozzarella and fresh basil.",
     description: "The classic Margherita pizza features a perfectly baked thin crust topped with our signature San Marzano tomato sauce, fresh mozzarella cheese, and fragrant basil leaves. A simple yet perfect Italian classic.",
-    image: "/assets/img/food/pizza.png",
+    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=60",
     gallery: [
-      "/assets/img/food/pizza.png"
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=60"
     ],
     ingredients: [
       "Tomato Sauce",
@@ -36,8 +36,8 @@ export const pizzas = [
       }
     },
     model3d: {
-      glb: "/assets/models/pizza-default.glb",
-      usdz: "/assets/models/pizza-default.usdz",
+      glb: "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/Avocado/glTF-Binary/Avocado.glb",
+      usdz: "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/Avocado/glTF-Binary/Avocado.usdz",
       authoredDiameterMeters: 0.3048
     }
   },
@@ -47,9 +47,9 @@ export const pizzas = [
     name: "Double Pepperoni",
     shortDescription: "Loaded with crispy pepperoni and mozzarella.",
     description: "For the true pepperoni lover. We double the amount of premium, perfectly spiced pepperoni and layer it over our rich tomato sauce and a blend of mozzarella and provolone cheeses. Baked to a perfect crisp.",
-    image: "/assets/img/food/pizza-2.png",
+    image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=500&q=60",
     gallery: [
-      "/assets/img/food/pizza-2.png"
+      "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=500&q=60"
     ],
     ingredients: [
       "Tomato Sauce",
@@ -76,8 +76,8 @@ export const pizzas = [
       }
     },
     model3d: {
-      glb: "/assets/models/pizza-default.glb",
-      usdz: "/assets/models/pizza-default.usdz",
+      glb: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+      usdz: "https://modelviewer.dev/shared-assets/models/Astronaut.usdz",
       authoredDiameterMeters: 0.3048
     }
   },
@@ -87,9 +87,9 @@ export const pizzas = [
     name: "BBQ Chicken Supreme",
     shortDescription: "Grilled chicken, red onions, and sweet BBQ sauce.",
     description: "A sweet and savory masterpiece. We replace our traditional tomato sauce with a tangy BBQ sauce, then top it with grilled chicken breast, sliced red onions, cilantro, and a blend of mozzarella and smoked gouda.",
-    image: "/assets/img/food/pizza-3.png",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=60",
     gallery: [
-      "/assets/img/food/pizza-3.png"
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=60"
     ],
     ingredients: [
       "BBQ Sauce",
@@ -117,8 +117,8 @@ export const pizzas = [
       }
     },
     model3d: {
-      glb: "/assets/models/pizza-default.glb",
-      usdz: "/assets/models/pizza-default.usdz",
+      glb: "https://modelviewer.dev/shared-assets/models/RobotExpressive.glb",
+      usdz: "https://modelviewer.dev/shared-assets/models/RobotExpressive.usdz",
       authoredDiameterMeters: 0.3048
     }
   },
@@ -128,9 +128,9 @@ export const pizzas = [
     name: "Veggie Supreme",
     shortDescription: "Bell peppers, mushrooms, onions, and black olives.",
     description: "A garden-fresh delight loaded with crisp green bell peppers, fresh mushrooms, sliced red onions, and black olives over our signature tomato sauce and melted mozzarella cheese.",
-    image: "/assets/img/food/pizza-4.png",
+    image: "https://images.unsplash.com/photo-1576458088443-04a19bb13da6?auto=format&fit=crop&w=500&q=60",
     gallery: [
-      "/assets/img/food/pizza-4.png"
+      "https://images.unsplash.com/photo-1576458088443-04a19bb13da6?auto=format&fit=crop&w=500&q=60"
     ],
     ingredients: [
       "Tomato Sauce",
@@ -159,8 +159,8 @@ export const pizzas = [
       }
     },
     model3d: {
-      glb: "/assets/models/pizza-default.glb",
-      usdz: "/assets/models/pizza-default.usdz",
+      glb: "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/WaterBottle/glTF-Binary/WaterBottle.glb",
+      usdz: "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/WaterBottle/glTF-Binary/WaterBottle.usdz",
       authoredDiameterMeters: 0.3048
     }
   },
@@ -170,9 +170,9 @@ export const pizzas = [
     name: "Creamy Garlic Chicken",
     shortDescription: "White garlic sauce, roasted chicken, and fresh parsley.",
     description: "Rich and comforting. This pizza features a creamy roasted garlic sauce base, topped with tender roasted chicken breast, caramelized onions, mozzarella cheese, and a sprinkle of fresh parsley.",
-    image: "/assets/img/food/pizza-creamy.png",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=60",
     gallery: [
-      "/assets/img/food/pizza-creamy.png"
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=60"
     ],
     ingredients: [
       "Creamy Garlic Sauce",
@@ -200,8 +200,8 @@ export const pizzas = [
       }
     },
     model3d: {
-      glb: "/assets/models/pizza-default.glb",
-      usdz: "/assets/models/pizza-default.usdz",
+      glb: "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/Fox/glTF-Binary/Fox.glb",
+      usdz: "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/Fox/glTF-Binary/Fox.usdz",
       authoredDiameterMeters: 0.3048
     }
   },
@@ -211,9 +211,9 @@ export const pizzas = [
     name: "Ultimate Meat Lovers",
     shortDescription: "Pepperoni, sausage, bacon, and ham.",
     description: "The ultimate carnivore's dream. Packed with premium pepperoni, Italian sausage, crispy bacon pieces, and smoked ham, all blanketed under melted mozzarella and provolone cheeses on our classic crust.",
-    image: "/assets/img/food/big-pizza.png",
+    image: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=500&q=60",
     gallery: [
-      "/assets/img/food/big-pizza.png"
+      "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=500&q=60"
     ],
     ingredients: [
       "Tomato Sauce",
@@ -242,48 +242,9 @@ export const pizzas = [
       }
     },
     model3d: {
-      glb: "/assets/models/pizza-default.glb",
-      usdz: "/assets/models/pizza-default.usdz",
+      glb: "https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb",
+      usdz: "https://modelviewer.dev/shared-assets/models/NeilArmstrong.usdz",
       authoredDiameterMeters: 0.3048
-    }
-  },
-  {
-    id: "demo-pizza",
-    slug: "demo-pizza",
-    name: "Interactive Demo Pizza",
-    shortDescription: "A special pizza added just for testing.",
-    description: "This is a demo product created for testing the application's catalog and checkout flow. It features our standard sizes and can be viewed in AR (if a model is provided).",
-    image: "/assets/img/food/pizza-4.png",
-    gallery: [
-      "/assets/img/food/pizza-4.png"
-    ],
-    ingredients: [
-      "Demo Sauce",
-      "Demo Cheese",
-      "Testing Toppings"
-    ],
-    category: "classic",
-    tags: ["demo", "test"],
-    rating: 5.0,
-    reviewCount: 999,
-    sizes: {
-      small: {
-        ...PIZZA_SIZES.small,
-        price: 9.99
-      },
-      medium: {
-        ...PIZZA_SIZES.medium,
-        price: 12.99
-      },
-      large: {
-        ...PIZZA_SIZES.large,
-        price: 15.99
-      }
-    },
-    model3d: {
-      glb: "https://modelviewer.dev/shared-assets/models/Astronaut.glb", // using a public demo model so the 3D viewer actually loads something
-      usdz: "https://modelviewer.dev/shared-assets/models/Astronaut.usdz",
-      authoredDiameterMeters: 1.0
     }
   }
 ];

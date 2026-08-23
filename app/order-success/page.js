@@ -3,15 +3,7 @@ import React, { useEffect } from "react";
 import FoodKingLayout from "@/layouts/FoodKingLayout";
 import PageBanner from "@/components/PageBanner";
 import Link from "next/link";
-import { useCart } from "@/context/CartContext";
-
 const OrderSuccessPage = () => {
-  const { clearCart } = useCart();
-
-  useEffect(() => {
-    // Clear the cart when landing on success page
-    clearCart();
-  }, [clearCart]);
 
   return (
     <FoodKingLayout>

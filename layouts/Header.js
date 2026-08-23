@@ -29,6 +29,9 @@ const Menus = () => {
         <Link href="/shop-cart">Cart</Link>
       </li>
       <li>
+        <Link href="/admin">Admin Panel</Link>
+      </li>
+      <li>
         <Link href="/about">About Us</Link>
       </li>
       <li>
@@ -399,6 +402,9 @@ const MobileMenu = () => {
             </li>
             <li>
               <Link href="/shop-cart">Cart</Link>
+            </li>
+            <li>
+              <Link href="/admin">Admin Panel</Link>
             </li>
             <li>
               <Link href="/about">About Us</Link>

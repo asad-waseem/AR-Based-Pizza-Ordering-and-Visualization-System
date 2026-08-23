@@ -21,33 +21,34 @@ const NextSaleBanner = () => {
                   <i className="far fa-long-arrow-left" />
                 </button>
               </div>
-<SwiperSlide className="swiper-slide">
-                  <div
-                    className="today-best-sale-image bg-cover"
-                    style={{
-                      backgroundImage: 'url("/assets/img/banner/best-sale.jpg")',
-                    }}
-                  />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div
-                    className="today-best-sale-image bg-cover"
-                    style={{
-                      backgroundImage:
-                        'url("/assets/img/banner/best-sale-2.jpg")',
-                    }}
-                  />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div
-                    className="today-best-sale-image bg-cover"
-                    style={{
-                      backgroundImage:
-                        'url("/assets/img/banner/best-sale-3.jpg")',
-                    }}
-                  />
-                </SwiperSlide>
-      </Swiper>
+              <SwiperSlide className="swiper-slide">
+                <div
+                  className="today-best-sale-image bg-cover"
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=80")',
+                  }}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div
+                  className="today-best-sale-image bg-cover"
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=1200&q=80")',
+                  }}
+                />
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div
+                  className="today-best-sale-image bg-cover"
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1200&q=80")',
+                  }}
+                />
+              </SwiperSlide>
+            </Swiper>
           </div>
           <div className="col-xl-4 col-lg-5">
             <div
@@ -93,6 +94,7 @@ const NextSaleBanner = () => {
   );
 };
 export default NextSaleBanner;
+
 export const NextSaleBanner2 = () => {
   return (
     <Swiper
@@ -111,7 +113,8 @@ export const NextSaleBanner2 = () => {
         <div
           className="today-best-sale-image bg-cover"
           style={{
-            backgroundImage: 'url("/assets/img/banner/best-sale-4.jpg")',
+            backgroundImage:
+              'url("https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=1200&q=80")',
           }}
         />
       </SwiperSlide>
@@ -119,7 +122,8 @@ export const NextSaleBanner2 = () => {
         <div
           className="today-best-sale-image bg-cover"
           style={{
-            backgroundImage: 'url("/assets/img/banner/best-sale-4.jpg")',
+            backgroundImage:
+              'url("https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=1200&q=80")',
           }}
         />
       </SwiperSlide>
@@ -127,7 +131,8 @@ export const NextSaleBanner2 = () => {
         <div
           className="today-best-sale-image bg-cover"
           style={{
-            backgroundImage: 'url("/assets/img/banner/best-sale-4.jpg")',
+            backgroundImage:
+              'url("https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=80")',
           }}
         />
       </SwiperSlide>

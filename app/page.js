@@ -4,6 +4,8 @@ import NextSaleBanner from "@/components/NextSaleBanner";
 import { TestimonialSlider3 } from "@/components/TestimonialSlider";
 import FoodKingLayout from "@/layouts/FoodKingLayout";
 import Link from "next/link";
+import { pizzas } from "@/data/pizzas";
+import PizzaCard from "@/components/pizza/PizzaCard";
 const page = () => {
   return (
     <FoodKingLayout header={2} footer={2}>
@@ -20,7 +22,7 @@ const page = () => {
               >
                 <div
                   className="testimonial-image bg-cover"
-                  style={{ backgroundImage: 'url("/assets/img/client/04.jpg")' }}
+                  style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80")' }}
                 >
                   <div className="shape-image">
                     <img
@@ -48,7 +50,7 @@ const page = () => {
                     <div
                       className="client-image bg-cover"
                       style={{
-                        backgroundImage: 'url("/assets/img/client/05.jpg")',
+                        backgroundImage: 'url("https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80")',
                       }}
                     />
                     <div className="title">
@@ -118,7 +120,10 @@ const page = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div
               className="food-banner-items-2 bg-cover"
-              style={{ backgroundImage: "url(/assets/img/banner/food-bg.jpg)" }}
+              style={{
+                backgroundImage:
+                  'url("https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80")',
+              }}
             >
               <div
                 className="price bg-cover"
@@ -148,7 +153,8 @@ const page = () => {
             <div
               className="food-banner-items-2 bg-cover"
               style={{
-                backgroundImage: "url(/assets/img/banner/food-bg-2.jpg)",
+                backgroundImage:
+                  'url("https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80")',
               }}
             >
               <div
@@ -182,7 +188,8 @@ const page = () => {
             <div
               className="food-banner-items-2 bg-cover"
               style={{
-                backgroundImage: "url(/assets/img/banner/food-bg-3.jpg)",
+                backgroundImage:
+                  'url("https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80")',
               }}
             >
               <div
@@ -230,345 +237,15 @@ const page = () => {
             </h2>
           </div>
           <div className="row">
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="single-product-items-2 text-center">
-                <div className="product-content">
-                  <h4>
-                    <Link href="shop-single">single fresh burger</Link>
-                  </h4>
-                  <div className="star">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(5k)</span>
-                  </div>
-                  <h5>price $25.59</h5>
-                </div>
-                <div className="product-image">
-                  <img src="/assets/img/food/burger-3.png" alt="food-img" />
-                  <ul className="product-icon d-flex justify-content-center align-items-center">
-                    <li>
-                      <Link href="/shop-cart">
-                        <i className="far fa-heart" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/shop-cart" className="theme-btn cart-btn">
-                        <i className="far fa-shopping-cart" />
-                        Add to Cart
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-single">
-                        <i className="far fa-expand" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+            {pizzas.slice(0, 8).map((pizza, index) => (
+              <div
+                key={pizza.id}
+                className="col-xl-3 col-lg-4 col-md-6 mb-4 wow fadeInUp"
+                data-wow-delay={`${0.3 + (index % 4) * 0.2}s`}
+              >
+                <PizzaCard pizza={pizza} />
               </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div className="single-product-items-2 text-center">
-                <div className="product-content">
-                  <h4>
-                    <Link href="shop-single">pizza with mushrooms</Link>
-                  </h4>
-                  <div className="star">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(4k)</span>
-                  </div>
-                  <h5>price $20.15</h5>
-                </div>
-                <div className="product-image">
-                  <img src="/assets/img/food/pizza-4.png" alt="food-img" />
-                  <ul className="product-icon d-flex justify-content-center align-items-center">
-                    <li>
-                      <Link href="/shop-cart">
-                        <i className="far fa-heart" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/shop-cart" className="theme-btn cart-btn">
-                        <i className="far fa-shopping-cart" />
-                        Add to Cart
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-single">
-                        <i className="far fa-expand" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
-            >
-              <div className="single-product-items-2 text-center">
-                <div className="product-content">
-                  <h4>
-                    <Link href="shop-single">double burger &amp; fries</Link>
-                  </h4>
-                  <div className="star">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(5k)</span>
-                  </div>
-                  <h5>price $38.00</h5>
-                </div>
-                <div className="product-image">
-                  <img src="/assets/img/food/main-food-4.png" alt="food-img" />
-                  <ul className="product-icon d-flex justify-content-center align-items-center">
-                    <li>
-                      <Link href="/shop-cart">
-                        <i className="far fa-heart" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/shop-cart" className="theme-btn cart-btn">
-                        <i className="far fa-shopping-cart" />
-                        Add to Cart
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-single">
-                        <i className="far fa-expand" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".9s"
-            >
-              <div className="single-product-items-2 text-center">
-                <div className="product-content">
-                  <h4>
-                    <Link href="shop-single">fried chicken french</Link>
-                  </h4>
-                  <div className="star">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(5k)</span>
-                  </div>
-                  <h5>price $23.85</h5>
-                </div>
-                <div className="product-image">
-                  <img src="/assets/img/food/fried-chicken.png" alt="food-img" />
-                  <ul className="product-icon d-flex justify-content-center align-items-center">
-                    <li>
-                      <Link href="/shop-cart">
-                        <i className="far fa-heart" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-cart" className="theme-btn cart-btn">
-                        <i className="far fa-shopping-cart" />
-                        Add to Cart
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-single">
-                        <i className="far fa-expand" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="single-product-items-2 text-center">
-                <div className="product-content">
-                  <h4>
-                    <a href="#">Seafood dish &amp; crabs</a>
-                  </h4>
-                  <div className="star">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(5k)</span>
-                  </div>
-                  <h5>price $13.00</h5>
-                </div>
-                <div className="product-image">
-                  <img src="/assets/img/food/seafood-dish.png" alt="food-img" />
-                  <ul className="product-icon d-flex justify-content-center align-items-center">
-                    <li>
-                      <Link href="/shop-cart">
-                        <i className="far fa-heart" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-cart" className="theme-btn cart-btn">
-                        <i className="far fa-shopping-cart" />
-                        Add to Cart
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-single">
-                        <i className="far fa-expand" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div className="single-product-items-2 text-center">
-                <div className="product-content">
-                  <h4>
-                    <Link href="shop-single">single fresh burger</Link>
-                  </h4>
-                  <div className="star">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(4k)</span>
-                  </div>
-                  <h5>price $28.50</h5>
-                </div>
-                <div className="product-image">
-                  <img src="/assets/img/food/fresh-burger.png" alt="food-img" />
-                  <ul className="product-icon d-flex justify-content-center align-items-center">
-                    <li>
-                      <Link href="shop-cart">
-                        <i className="far fa-heart" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-cart" className="theme-btn cart-btn">
-                        <i className="far fa-shopping-cart" />
-                        Add to Cart
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-single">
-                        <i className="far fa-expand" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".7s"
-            >
-              <div className="single-product-items-2 text-center">
-                <div className="product-content">
-                  <h4>
-                    <a href="#">dum chicken-biryani</a>
-                  </h4>
-                  <div className="star">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(5k)</span>
-                  </div>
-                  <h5>price $30.00</h5>
-                </div>
-                <div className="product-image">
-                  <img
-                    src="/assets/img/food/chicken-biryani.png"
-                    alt="food-img"
-                  />
-                  <ul className="product-icon d-flex justify-content-center align-items-center">
-                    <li>
-                      <Link href="shop-cart">
-                        <i className="far fa-heart" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-cart" className="theme-btn cart-btn">
-                        <i className="far fa-shopping-cart" />
-                        Add to Cart
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-single">
-                        <i className="far fa-expand" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".9s"
-            >
-              <div className="single-product-items-2 text-center">
-                <div className="product-content">
-                  <h4>
-                    <Link href="shop-single">pizza with creamy sauce</Link>
-                  </h4>
-                  <div className="star">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(5k)</span>
-                  </div>
-                  <h5>price $33.98</h5>
-                </div>
-                <div className="product-image">
-                  <img src="/assets/img/food/pizza-creamy.png" alt="food-img" />
-                  <ul className="product-icon d-flex justify-content-center align-items-center">
-                    <li>
-                      <Link href="shop-cart">
-                        <i className="far fa-heart" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-cart" className="theme-btn cart-btn">
-                        <i className="far fa-shopping-cart" />
-                        Add to Cart
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="shop-single">
-                        <i className="far fa-expand" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -620,8 +297,18 @@ const page = () => {
           >
             <div className="food-image">
               <img
-                src="/assets/img/shop-food/delicious-pizza.png"
-                alt="food-img"
+                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+                alt="Italian pizza"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
               />
               <div
                 className="box-text bg-cover"
@@ -646,8 +333,18 @@ const page = () => {
           >
             <div className="food-image">
               <img
-                src="/assets/img/shop-food/vagetable-burger.png"
-                alt="food-img"
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                alt="vegetable hamburger"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
               />
               <div
                 className="box-text bg-cover"
@@ -672,8 +369,18 @@ const page = () => {
           >
             <div className="food-image">
               <img
-                src="/assets/img/shop-food/roasted-chicken.png"
-                alt="food-img"
+                src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80"
+                alt="roasted chicken drumsticks"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
               />
               <div
                 className="box-text bg-cover"
@@ -697,7 +404,20 @@ const page = () => {
             data-wow-delay=".8s"
           >
             <div className="food-image">
-              <img src="/assets/img/shop-food/roll-samosa.png" alt="food-img" />
+              <img
+                src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80"
+                alt="roll shaped cigar samosa"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
+              />
               <div
                 className="box-text bg-cover"
                 style={{ backgroundImage: "url(/assets/img/shop-food/box.png)" }}
@@ -720,7 +440,20 @@ const page = () => {
             data-wow-delay=".9s"
           >
             <div className="food-image">
-              <img src="/assets/img/shop-food/rumberos.png" alt="food-img" />
+              <img
+                src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?auto=format&fit=crop&w=600&q=80"
+                alt="rumberos hotdog sandwich"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
+              />
               <div
                 className="box-text bg-cover"
                 style={{ backgroundImage: "url(/assets/img/shop-food/box.png)" }}
@@ -793,7 +526,8 @@ const page = () => {
           <div
             className="video-wrapper bg-cover"
             style={{
-              backgroundImage: 'url("/assets/img/banner/video-bg-2.jpg")',
+              backgroundImage:
+                'url("https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80")',
             }}
           >
             <div className="video-btn video-pulse center">
@@ -900,7 +634,10 @@ const page = () => {
               <div className="single-news-items style-2">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("/assets/img/news/04.jpg")' }}
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=800&q=80")',
+                  }}
                 />
                 <div className="news-content">
                   <ul className="post-date d-flex align-items-center justify-content-between">
@@ -928,7 +665,10 @@ const page = () => {
               <div className="single-news-items style-2">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("/assets/img/news/05.jpg")' }}
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80")',
+                  }}
                 />
                 <div className="news-content">
                   <ul className="post-date d-flex align-items-center justify-content-between">
@@ -956,7 +696,10 @@ const page = () => {
               <div className="single-news-items style-2">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("/assets/img/news/06.jpg")' }}
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80")',
+                  }}
                 />
                 <div className="news-content">
                   <ul className="post-date d-flex align-items-center justify-content-between">
@@ -986,7 +729,8 @@ const page = () => {
           <div
             className="main-cta-banner-wrapper-3 bg-cover"
             style={{
-              backgroundImage: 'url("/assets/img/banner/main-cta-bg-3.jpg")',
+              backgroundImage:
+                'url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80")',
             }}
           >
             <div className="fry-shape">

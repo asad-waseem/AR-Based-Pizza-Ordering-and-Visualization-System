@@ -620,8 +620,18 @@ const page = () => {
           >
             <div className="food-image">
               <img
-                src="/assets/img/shop-food/delicious-pizza.png"
-                alt="food-img"
+                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+                alt="Italian pizza"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
               />
               <div
                 className="box-text bg-cover"
@@ -646,8 +656,18 @@ const page = () => {
           >
             <div className="food-image">
               <img
-                src="/assets/img/shop-food/vagetable-burger.png"
-                alt="food-img"
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                alt="vegetable hamburger"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
               />
               <div
                 className="box-text bg-cover"
@@ -672,8 +692,18 @@ const page = () => {
           >
             <div className="food-image">
               <img
-                src="/assets/img/shop-food/roasted-chicken.png"
-                alt="food-img"
+                src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80"
+                alt="roasted chicken drumsticks"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
               />
               <div
                 className="box-text bg-cover"
@@ -697,7 +727,20 @@ const page = () => {
             data-wow-delay=".8s"
           >
             <div className="food-image">
-              <img src="/assets/img/shop-food/roll-samosa.png" alt="food-img" />
+              <img
+                src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80"
+                alt="roll shaped cigar samosa"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
+              />
               <div
                 className="box-text bg-cover"
                 style={{ backgroundImage: "url(/assets/img/shop-food/box.png)" }}
@@ -720,7 +763,20 @@ const page = () => {
             data-wow-delay=".9s"
           >
             <div className="food-image">
-              <img src="/assets/img/shop-food/rumberos.png" alt="food-img" />
+              <img
+                src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?auto=format&fit=crop&w=600&q=80"
+                alt="rumberos hotdog sandwich"
+                style={{
+                  width: "100%",
+                  maxWidth: "240px",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "16px",
+                  margin: "0 auto",
+                  display: "block",
+                  boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+                }}
+              />
               <div
                 className="box-text bg-cover"
                 style={{ backgroundImage: "url(/assets/img/shop-food/box.png)" }}
@@ -900,7 +956,10 @@ const page = () => {
               <div className="single-news-items style-2">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("/assets/img/news/04.jpg")' }}
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=800&q=80")',
+                  }}
                 />
                 <div className="news-content">
                   <ul className="post-date d-flex align-items-center justify-content-between">
@@ -928,7 +987,10 @@ const page = () => {
               <div className="single-news-items style-2">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("/assets/img/news/05.jpg")' }}
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80")',
+                  }}
                 />
                 <div className="news-content">
                   <ul className="post-date d-flex align-items-center justify-content-between">
@@ -956,7 +1018,10 @@ const page = () => {
               <div className="single-news-items style-2">
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("/assets/img/news/06.jpg")' }}
+                  style={{
+                    backgroundImage:
+                      'url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80")',
+                  }}
                 />
                 <div className="news-content">
                   <ul className="post-date d-flex align-items-center justify-content-between">
