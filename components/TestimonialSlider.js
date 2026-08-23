@@ -26,192 +26,132 @@ const TestimonialSlider = ({ sectionBg = true }) => {
               {...sliderProps.testimonialContentSlider}
               className="swiper testimonial-content-slider"
             >
-<SwiperSlide className="swiper-slide">
-                  <div className="testimonial-content">
-                    <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
-                    </div>
-                    <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
-                    </h3>
-                    <div className="star">
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                    </div>
+              <SwiperSlide className="swiper-slide">
+                <div className="testimonial-content">
+                  <div className="client-info">
+                    <h4>Piter Bowman</h4>
+                    <h5>Business CEO &amp; co founder</h5>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="testimonial-content">
-                    <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
-                    </div>
-                    <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
-                    </h3>
-                    <div className="star">
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                    </div>
+                  <h3>
+                    “Thank you for dinner last night. It was amazing!! I have
+                    say it’s the best meal I have had in quite some time. will
+                    definitely be seeing more eating next year.”
+                  </h3>
+                  <div className="star">
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
                   </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="testimonial-content">
-                    <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
-                    </div>
-                    <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
-                    </h3>
-                    <div className="star">
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                    </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="testimonial-content">
+                  <div className="client-info">
+                    <h4>Piter Bowman</h4>
+                    <h5>Business CEO &amp; co founder</h5>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="testimonial-content">
-                    <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
-                    </div>
-                    <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
-                    </h3>
-                    <div className="star">
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                    </div>
+                  <h3>
+                    “Thank you for dinner last night. It was amazing!! I have
+                    say it’s the best meal I have had in quite some time. will
+                    definitely be seeing more eating next year.”
+                  </h3>
+                  <div className="star">
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
                   </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="testimonial-content">
-                    <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
-                    </div>
-                    <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
-                    </h3>
-                    <div className="star">
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                    </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="testimonial-content">
+                  <div className="client-info">
+                    <h4>Piter Bowman</h4>
+                    <h5>Business CEO &amp; co founder</h5>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="testimonial-content">
-                    <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
-                    </div>
-                    <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
-                    </h3>
-                    <div className="star">
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                      <span className="fas fa-star" />
-                    </div>
+                  <h3>
+                    “Thank you for dinner last night. It was amazing!! I have
+                    say it’s the best meal I have had in quite some time. will
+                    definitely be seeing more eating next year.”
+                  </h3>
+                  <div className="star">
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
                   </div>
-                </SwiperSlide>
-      </Swiper>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="testimonial-content">
+                  <div className="client-info">
+                    <h4>Piter Bowman</h4>
+                    <h5>Business CEO &amp; co founder</h5>
+                  </div>
+                  <h3>
+                    “Thank you for dinner last night. It was amazing!! I have
+                    say it’s the best meal I have had in quite some time. will
+                    definitely be seeing more eating next year.”
+                  </h3>
+                  <div className="star">
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                    <span className="fas fa-star" />
+                  </div>
+                </div>
+              </SwiperSlide>
+            </Swiper>
             <Swiper
               {...sliderProps.testimonialImageSlider}
               className="swiper testimonial-image-slider"
             >
-<SwiperSlide className="swiper-slide">
-                  <div className="client-image-item">
-                    <div
-                      className="client-img bg-cover"
-                      style={{
-                        backgroundImage: 'url("/assets/img/client/01.jpg")',
-                      }}
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="client-image-item">
-                    <div
-                      className="client-img bg-cover"
-                      style={{
-                        backgroundImage: 'url("/assets/img/client/02.jpg")',
-                      }}
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="client-image-item">
-                    <div
-                      className="client-img bg-cover"
-                      style={{
-                        backgroundImage: 'url("/assets/img/client/03.jpg")',
-                      }}
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="client-image-item">
-                    <div
-                      className="client-img bg-cover"
-                      style={{
-                        backgroundImage: 'url("/assets/img/client/01.jpg")',
-                      }}
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="client-image-item">
-                    <div
-                      className="client-img bg-cover"
-                      style={{
-                        backgroundImage: 'url("/assets/img/client/02.jpg")',
-                      }}
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="client-image-item">
-                    <div
-                      className="client-img bg-cover"
-                      style={{
-                        backgroundImage: 'url("/assets/img/client/03.jpg")',
-                      }}
-                    />
-                  </div>
-                </SwiperSlide>
-      </Swiper>
+              <SwiperSlide className="swiper-slide">
+                <div className="client-image-item">
+                  <div
+                    className="client-img bg-cover"
+                    style={{
+                      backgroundImage: 'url("/assets/img/client/01.jpg")',
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="client-image-item">
+                  <div
+                    className="client-img bg-cover"
+                    style={{
+                      backgroundImage: 'url("/assets/img/client/02.jpg")',
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="client-image-item">
+                  <div
+                    className="client-img bg-cover"
+                    style={{
+                      backgroundImage: 'url("/assets/img/client/03.jpg")',
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="client-image-item">
+                  <div
+                    className="client-img bg-cover"
+                    style={{
+                      backgroundImage: 'url("/assets/img/client/01.jpg")',
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </div>
@@ -245,91 +185,50 @@ export const TestimonialSlider2 = () => {
                 {...sliderProps.testimonialContentSlider2}
                 className="swiper testimonial-content-slider-2"
               >
-<SwiperSlide className="swiper-slide">
-                    <div className="testimonial-content center">
-                      <div className="client-info">
-                        <h4>Piter Bowman</h4>
-                        <h5>Business CEO &amp; co founder</h5>
-                      </div>
-                      <h3>
-                        “Thank you for dinner last night. It was amazing!! I
-                        have say it’s the best meal I have had in quite some
-                        time. will definitely be seeing more eating next year.”
-                      </h3>
-                      <div className="star">
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                      </div>
+                <SwiperSlide className="swiper-slide">
+                  <div className="testimonial-content center">
+                    <div className="client-info">
+                      <h4>Piter Bowman</h4>
+                      <h5>Business CEO &amp; co founder</h5>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-content center">
-                      <div className="client-info">
-                        <h4>Piter Bowman</h4>
-                        <h5>Business CEO &amp; co founder</h5>
-                      </div>
-                      <h3>
-                        “Thank you for dinner last night. It was amazing!! I
-                        have say it’s the best meal I have had in quite some
-                        time. will definitely be seeing more eating next year.”
-                      </h3>
-                      <div className="star">
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                      </div>
+                    <h3>
+                      “Thank you for dinner last night. It was amazing!! I have
+                      say it’s the best meal I have had in quite some time. will
+                      definitely be seeing more eating next year.”
+                    </h3>
+                    <div className="star">
+                      <span className="fas fa-star" />
+                      <span className="fas fa-star" />
+                      <span className="fas fa-star" />
+                      <span className="fas fa-star" />
+                      <span className="fas fa-star" />
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-content center">
-                      <div className="client-info">
-                        <h4>Piter Bowman</h4>
-                        <h5>Business CEO &amp; co founder</h5>
-                      </div>
-                      <h3>
-                        “Thank you for dinner last night. It was amazing!! I
-                        have say it’s the best meal I have had in quite some
-                        time. will definitely be seeing more eating next year.”
-                      </h3>
-                      <div className="star">
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                      </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                  <div className="testimonial-content center">
+                    <div className="client-info">
+                      <h4>Piter Bowman</h4>
+                      <h5>Business CEO &amp; co founder</h5>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-content center">
-                      <div className="client-info">
-                        <h4>Piter Bowman</h4>
-                        <h5>Business CEO &amp; co founder</h5>
-                      </div>
-                      <h3>
-                        “Thank you for dinner last night. It was amazing!! I
-                        have say it’s the best meal I have had in quite some
-                        time. will definitely be seeing more eating next year.”
-                      </h3>
-                      <div className="star">
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                        <span className="fas fa-star" />
-                      </div>
+                    <h3>
+                      “Thank you for dinner last night. It was amazing!! I have
+                      say it’s the best meal I have had in quite some time. will
+                      definitely be seeing more eating next year.”
+                    </h3>
+                    <div className="star">
+                      <span className="fas fa-star" />
+                      <span className="fas fa-star" />
+                      <span className="fas fa-star" />
+                      <span className="fas fa-star" />
+                      <span className="fas fa-star" />
                     </div>
-                  </SwiperSlide>
-                </div>
-                <div className="swiper-dot style-2">
-                  <div className="dot-2" />
-                </div>
+                  </div>
+                </SwiperSlide>
               </Swiper>
+              <div className="swiper-dot style-2">
+                <div className="dot-2" />
+              </div>
             </div>
           </div>
         </div>
@@ -349,143 +248,75 @@ export const TestimonialSlider3 = () => {
                 {...sliderProps.testimonialContentSlider3}
                 className="swiper testimonial-content-slider-3"
               >
-<SwiperSlide className="swiper-slide">
-                    <div className="testimonial-content">
-                      <div className="info-icon d-flex align-items-center">
-                        <img src="/assets/img/icon/quote.svg" alt="icon-img" />
-                        <h4>Quality Food</h4>
-                        <div className="star">
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                        </div>
-                      </div>
-                      <h3>
-                        Nestled within a fresh, toasted bun, each bite unveils a
-                        perfect harmony of textures, complemented by layers of
-                        crisp lettuce, ripe tomatoes, and the crunch pickles Our
-                        secret sauce proprietary blend savory
-                      </h3>
-                      <div className="client-info d-flex align-items-center">
-                        <div
-                          className="client-image bg-cover"
-                          style={{
-                            backgroundImage: 'url("/assets/img/client/06.jpg")',
-                          }}
-                        />
-                        <div className="title">
-                          <h4>
-                            Richard D. Baker/ <span>CEO &amp; Founder</span>
-                          </h4>
-                        </div>
+                <SwiperSlide className="swiper-slide">
+                  <div className="testimonial-content">
+                    <div className="info-icon d-flex align-items-center">
+                      <img src="/assets/img/icon/quote.svg" alt="icon-img" />
+                      <h4>Quality Food</h4>
+                      <div className="star">
+                        <span className="fas fa-star" />
+                        <span className="fas fa-star" />
+                        <span className="fas fa-star" />
+                        <span className="fas fa-star" />
+                        <span className="fas fa-star" />
                       </div>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-content">
-                      <div className="info-icon d-flex align-items-center">
-                        <img src="/assets/img/icon/quote.svg" alt="icon-img" />
-                        <h4>Quality Food</h4>
-                        <div className="star">
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                        </div>
-                      </div>
-                      <h3>
-                        Nestled within a fresh, toasted bun, each bite unveils a
-                        perfect harmony of textures, complemented by layers of
-                        crisp lettuce, ripe tomatoes, and the crunch pickles Our
-                        secret sauce proprietary blend savory
-                      </h3>
-                      <div className="client-info d-flex align-items-center">
-                        <div
-                          className="client-image bg-cover"
-                          style={{
-                            backgroundImage: 'url("/assets/img/client/06.jpg")',
-                          }}
-                        />
-                        <div className="title">
-                          <h4>
-                            Richard D. Baker/ <span>CEO &amp; Founder</span>
-                          </h4>
-                        </div>
+                    <h3>
+                      Nestled within a fresh, toasted bun, each bite unveils a
+                      perfect harmony of textures, complemented by layers of
+                      crisp lettuce, ripe tomatoes, and the crunch pickles Our
+                      secret sauce proprietary blend savory
+                    </h3>
+                    <div className="client-info d-flex align-items-center">
+                      <div
+                        className="client-image bg-cover"
+                        style={{
+                          backgroundImage: 'url("/assets/img/client/06.jpg")',
+                        }}
+                      />
+                      <div className="title">
+                        <h4>
+                          Richard D. Baker/ <span>CEO &amp; Founder</span>
+                        </h4>
                       </div>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-content">
-                      <div className="info-icon d-flex align-items-center">
-                        <img src="/assets/img/icon/quote.svg" alt="icon-img" />
-                        <h4>Quality Food</h4>
-                        <div className="star">
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                        </div>
-                      </div>
-                      <h3>
-                        Nestled within a fresh, toasted bun, each bite unveils a
-                        perfect harmony of textures, complemented by layers of
-                        crisp lettuce, ripe tomatoes, and the crunch pickles Our
-                        secret sauce proprietary blend savory
-                      </h3>
-                      <div className="client-info d-flex align-items-center">
-                        <div
-                          className="client-image bg-cover"
-                          style={{
-                            backgroundImage: 'url("/assets/img/client/06.jpg")',
-                          }}
-                        />
-                        <div className="title">
-                          <h4>
-                            Richard D. Baker/ <span>CEO &amp; Founder</span>
-                          </h4>
-                        </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                  <div className="testimonial-content">
+                    <div className="info-icon d-flex align-items-center">
+                      <img src="/assets/img/icon/quote.svg" alt="icon-img" />
+                      <h4>Quality Food</h4>
+                      <div className="star">
+                        <span className="fas fa-star" />
+                        <span className="fas fa-star" />
+                        <span className="fas fa-star" />
+                        <span className="fas fa-star" />
+                        <span className="fas fa-star" />
                       </div>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-content">
-                      <div className="info-icon d-flex align-items-center">
-                        <img src="/assets/img/icon/quote.svg" alt="icon-img" />
-                        <h4>Quality Food</h4>
-                        <div className="star">
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                          <span className="fas fa-star" />
-                        </div>
-                      </div>
-                      <h3>
-                        Nestled within a fresh, toasted bun, each bite unveils a
-                        perfect harmony of textures, complemented by layers of
-                        crisp lettuce, ripe tomatoes, and the crunch pickles Our
-                        secret sauce proprietary blend savory
-                      </h3>
-                      <div className="client-info d-flex align-items-center">
-                        <div
-                          className="client-image bg-cover"
-                          style={{
-                            backgroundImage: 'url("/assets/img/client/06.jpg")',
-                          }}
-                        />
-                        <div className="title">
-                          <h4>
-                            Richard D. Baker/ <span>CEO &amp; Founder</span>
-                          </h4>
-                        </div>
+                    <h3>
+                      Nestled within a fresh, toasted bun, each bite unveils a
+                      perfect harmony of textures, complemented by layers of
+                      crisp lettuce, ripe tomatoes, and the crunch pickles Our
+                      secret sauce proprietary blend savory
+                    </h3>
+                    <div className="client-info d-flex align-items-center">
+                      <div
+                        className="client-image bg-cover"
+                        style={{
+                          backgroundImage: 'url("/assets/img/client/06.jpg")',
+                        }}
+                      />
+                      <div className="title">
+                        <h4>
+                          Richard D. Baker/ <span>CEO &amp; Founder</span>
+                        </h4>
                       </div>
                     </div>
-                  </SwiperSlide>
-      </Swiper>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
             </div>
             <div className="col-xl-4 col-lg-4 mt-5 mt-lg-0">
               <div
